@@ -1,0 +1,1 @@
+RewriteRule ^mobile/list$ rest/RestController.php?view=all [nc,qsa]

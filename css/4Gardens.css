@@ -1,0 +1,21 @@
+@font-face {
+    font-family: MasterOfBreak;
+    src: url('../fonts/master_of_break.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/master_of_break.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/master_of_break.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/master_of_break.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+.gardenTitle {
+    font-family: MasterOfBreak, serif;
+}
+
+.fit {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
