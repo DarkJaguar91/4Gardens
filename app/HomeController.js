@@ -7,7 +7,7 @@ app.controller("HomeController", function ($scope, $http) {
     $scope.image = "assets/images/loading.gif";
     $scope.tst = "here";
 
-    $http.get('rest/test.php', {}).then(
+    $http.get('rest/', {}).then(
         function(response) {
             $scope.data = response.data;
             $scope.image = $scope.data.image;

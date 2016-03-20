@@ -6,7 +6,7 @@
     url('../fonts/master_of_break.ttf')  format('truetype') /* Safari, Android, iOS */
 }
 
-.gardenTitle {
+.gardensFont {
     font-family: MasterOfBreak, serif;
 }
 
@@ -18,4 +18,8 @@
 .center {
     display: block;
     margin: auto;
+}
+
+.center-vert {
+    text-align: center;
 }
