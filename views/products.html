@@ -1,0 +1,24 @@
+<div class="productContainer">
+    <div class="jumbotron animate-if" ng-if="state == 'empty'">
+        Awww shucks... it seems we're out of stock
+    </div>
+    <div class="jumbotron" ng-if="state == 'loading'">
+        <img class="center-block fit" src="assets/images/loading.gif" alt="Loading">
+    </div>
+    <div class="animate-if" ng-if="state == 'done'">
+        <div class="product col-lg-4 col-sm-6" ng-repeat="item in products">
+            <div class="productBackground">
+                <img class="productImage fit center-block" src="{{item.image}}"/>
+                <div class="productTitle">
+                    {{item.title}}
+                </div>
+                <div class="productPrice">
+                    {{item.price | currency : 'R'}}{{item.declaration}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/isotope.min.js"></script>
+<script src="../js/views/products.js"></script>

@@ -47,7 +47,7 @@ class Compiler
 
         $phar->startBuffering();
 
-        $root = __DIR__ . '/../../Silex';
+        $root = __DIR__.'/../../..';
 
         $finder = new Finder();
         $finder->files()

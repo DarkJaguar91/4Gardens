@@ -2,6 +2,7 @@
     Options -MultiViews
 
     RewriteEngine On
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^rest/ rest/RestController.php [QSA,L]
 </IfModule>

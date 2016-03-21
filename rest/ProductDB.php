@@ -19,7 +19,11 @@ require_once 'DbAccess.php';
             $this->DbAccess = new DBAccess();
         }
 
-        public function getProducts() {
-            return $this->DbAccess->get('SELECT * FROM product_types;');
+        public function getTypes() {
+            return $this->DbAccess->get('SELECT * FROM product_types ORDER BY product_types.type ASC;');
+        }
+
+        public function getProducts($productType) {
+            return $this->DbAccess->get('SELECT * FROM products WHERE products.type=' . $productType . ';');
         }
     }

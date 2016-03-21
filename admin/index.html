@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4Gardens Admin</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/4Gardens.css" rel="stylesheet">
+    <link href="../css/animations.css" rel="stylesheet">
+</head>
+<body ng-app="4GardensAdmin">
+
+<div class="container-fluid">
+    <div class="col-sm-4">
+        <img class="fit center-block" src="../assets/images/4Gardens%20Logo_Colour.png" alt="4Gardens"/>
+    </div>
+    <div class="col-sm-4">
+        <h1 class="gardensFont">
+            Hand Made Garden Decor
+        </h1>
+    </div>
+</div>
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/admin">Admin</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="NavbarController">
+            <ul class="nav navbar-nav">
+                <li><a href="#/types">Product Types</a></li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Products <span class="caret" ng-if="state == 'loaded' || state == null"></span>
+                        <img style="height: 15px;" src="../assets/images/loading.gif" ng-if="state == 'loading'"></a>
+                    <ul class="dropdown-menu">
+                        <li ng-repeat="item in products"><a href="#/product/{{item.id}}">{{item.type}}</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div ng-view></div>
+</div>
+
+<!-- Scripts -->
+<script src="../js/jquery-2.2.2.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/angular.min.js"></script>
+<script src="../js/angular-route.min.js"></script>
+<script src="../js/angular-animate.min.js"></script>
+
+<script src="app/4Gardens.js"></script>
+<script src="../service/ProductTypeService.js"></script>
+<script src="app/NavbarController.js"></script>
+<script src="app/ProductTypesController.js"></script>
+
+</body>
+</html>

@@ -6,6 +6,16 @@
     url('../fonts/master_of_break.ttf')  format('truetype') /* Safari, Android, iOS */
 }
 
+@font-face {
+    font-family: 'WhitneySemiBold';
+    src: url('../fonts/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/glyphicons-halflings-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/glyphicons-halflings-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 .gardensFont {
     font-family: MasterOfBreak, serif;
 }
@@ -13,4 +23,40 @@
 .fit {
     max-width: 100%;
     max-height: 100%;
+}
+
+.product {
+    padding: 5px;
+}
+
+.productBackground {
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.productImage {
+    z-index: -1;
+}
+
+.productTitle {
+    background-color: rgba(2, 2, 2, 0.5);
+    position: absolute;
+    top: 5px;
+    font-family: MasterOfBreak, serif;
+    padding: 5px 15px;
+    margin: 0;
+    color: #AAAAAA;
+    font-size: 35px;
+}
+
+.productPrice {
+    background-color: rgba(200, 200, 200, 0.2);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-family: WhitneySemiBold, serif;
+    padding: 0 0 0 0;
+    margin: 0;
+    color: #000000;
+    font-size: 18px;
 }

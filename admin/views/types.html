@@ -1,0 +1,10 @@
+<div class="jumbotron">
+    <div class="container-fluid well">
+        <input id="search" style="width: 100%" placeholder="Search" type="text" name="search">
+    </div>
+    <div iso-grid ng-model="types">
+        <div class="item container-fluid well" ng-repeat="type in types">
+            <input class="type" type="text" name="{{type.id}}" placeholder="{{type.type}}">
+        </div>
+    </div>
+</div>

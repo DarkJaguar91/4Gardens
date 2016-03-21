@@ -23,19 +23,29 @@
 
 <nav class="navbar navbar-default">
     <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand" href="#/home">Home</a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav center-block">
-                <li class="active"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
-                <li><a href="#contact">Link</a></li>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="NavbarController">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Products <span class="caret" ng-if="state == 'loaded' || state == null"></span>
+                        <img style="height: 15px;" src="assets/images/loading.gif" ng-if="state == 'loading'"></a>
+                    <ul class="dropdown-menu">
+                        <li ng-repeat="item in products"><a href="#/product/{{item.id}}">{{item.type}}</a></li>
+                    </ul>
+                </li>
+                <li><a href="#/contact">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -46,13 +56,17 @@
 </div>
 
 <!-- Scripts -->
-<!--<script src="js/bootstrap.js"></script>-->
+<script src="js/jquery-2.2.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/angular.min.js"></script>
 <script src="js/angular-route.min.js"></script>
 <script src="js/angular-animate.min.js"></script>
 
 <script src="app/4Gardens.js"></script>
-<script src="app/HomeController.js"></script>
+<script src="service/ProductTypeService.js"></script>
+<script src="app/NavbarController.js"></script>
+<script src="app/ProductsController.js"></script>
+<script src="app/ContactController.js"></script>
 
 </body>
 </html>

@@ -19,9 +19,13 @@ class ProductController {
         $this->productDb = new ProductDB();
     }
 
+    public function productTypes() {
+        return json_encode($this->productDb->getTypes());
+    }
 
-    public function products() {
-        return json_encode($this->productDb->getProducts());
+    public function products($productType) {
+        sleep(5);
+        return json_encode($this->productDb->getProducts($productType));
     }
 
     public function productList($type) {

@@ -17,7 +17,9 @@
         {
             $products = $app['controllers_factory'];
 
-            $products->get('/', 'ProductController::products');
+            $products->get('/', 'ProductController::productTypes');
+
+            $products->get('/{productType}', 'ProductController::products');
 
             return $products;
         }
