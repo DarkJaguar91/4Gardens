@@ -2,7 +2,7 @@
  * Created by bjtal on 2016/03/21.
  */
 
-app.controller('ProductTypesController', ['$scope', 'productTypes', function ($scope, productTypes) {
+app.controller('ProductTypesController', ['$scope', '$timeout', 'productTypes', function ($scope, $timeout, productTypes) {
         $scope.state = 'loading';
         $scope.search = '';
 
@@ -44,6 +44,37 @@ app.controller('ProductTypesController', ['$scope', 'productTypes', function ($s
             }
         };
 
+        $scope.onRename = function ($id) {
+            var error = $('#error' + $id);
+            var text = $('#input' + $id).val();
+            var renameText = $('#btn' + $id).find('.rename-text');
+            var renameLoad = $('#btn' + $id).find('.rename-load');
+            renameText.hide();
+            renameLoad.show();
+            error.hide();
+
+            if (text && text.length > 0) {
+                productTypes.rename($id, text, function (success, response) {
+                    renameText.show();
+                    renameLoad.hide();
+                    if (success) {
+                        $('#input' + response.type.id).val('');
+                        $timeout(function () {
+                            $('#container').isotope('updateSortData', $('.type-item').get()).isotope();
+                        }, 10);
+                    } else {
+                        error.find('p').text(response.message);
+                        error.show();
+                    }
+                });
+            } else {
+                renameText.show();
+                renameLoad.hide();
+                error.find('p').text("Please enter a type name.");
+                error.show();
+            }
+        };
+
         $scope.$on('ngRepeatFinished', function () {
             if ($scope.isotoped) {
                 $('#container').isotope()
@@ -60,11 +91,11 @@ app.controller('ProductTypesController', ['$scope', 'productTypes', function ($s
                     },
                     sortBy: 'type',
                     filter: function () {
-                        if (!$scope.search && 0 === $scope.search.length) {
+                        if (!$scope.search || 0 === $scope.search.length) {
                             return true;
                         } else {
                             var text = $(this).find('input[type=text]').attr('placeholder').toLowerCase()
-                            return text.indexOf($scope.search.toLocaleLowerCase()) > -1;
+                            return text.indexOf($scope.search.toLowerCase()) > -1;
                         }
                     }
                 });

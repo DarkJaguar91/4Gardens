@@ -31,4 +31,9 @@ require_once 'DbAccess.php';
         public function getProducts($productType) {
             return $this->DbAccess->get('SELECT * FROM products WHERE products.type=' . $productType . ';');
         }
+
+        public function change($typeId, $typeName)
+        {
+            return $this->DbAccess->update('UPDATE product_types SET type=\'' . $typeName . '\' WHERE id=' . $typeId . ';');
+        }
     }

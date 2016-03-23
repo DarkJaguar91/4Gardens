@@ -39,6 +39,32 @@
                 return json_encode($this->productDb->getProducts($productType));
             });
 
+            $products->put('/type/{typeId}', function (\Symfony\Component\HttpFoundation\Request $request, $typeId) {
+                sleep(3);
+                $output = new stdClass();
+                $output->success = false;
+
+                $type = $request->request->get('type');
+
+                if ($type != null && is_string($type)) {
+                    $success = $this->productDb->change((int)$typeId, $type);
+                    if ($success === TRUE) {
+                        $output->type = new stdClass();
+                        $output->type->id = $typeId;
+                        $output->type->type = $type;
+                        $output->success = TRUE;
+                        $output->message = 'Type renamed successfully. ';
+
+                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 200);
+                    } else {
+                        $output->message = $success;
+                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 500);
+                    }
+                }
+                $output->message = 'Type must constitute of text.';
+                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
+            });
+
             $products->post('/newtype', function (\Symfony\Component\HttpFoundation\Request $request) {
                 sleep(3);
                 $type = $request->request->get('type');

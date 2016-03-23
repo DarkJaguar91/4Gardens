@@ -45,4 +45,12 @@ class DBAccess {
     {
         $this->conn->close();
     }
+
+    public function update($SQL)
+    {
+        if ($this->conn->query($SQL) === TRUE) {
+            return TRUE;
+        }
+        return $this->conn->error;
+    }
 }
