@@ -32,6 +32,15 @@ class DBAccess {
         return $output;
     }
 
+    function insert($SQL)
+    {
+        if ($this->conn->query($SQL) == TRUE) {
+            return $this->conn->insert_id;
+        } else {
+            return -1;
+        }
+    }
+
     function __destruct()
     {
         $this->conn->close();

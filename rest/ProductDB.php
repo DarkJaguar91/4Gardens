@@ -23,6 +23,11 @@ require_once 'DbAccess.php';
             return $this->DbAccess->get('SELECT * FROM product_types ORDER BY product_types.type ASC;');
         }
 
+        public function addType($type)
+        {
+            return $this->DbAccess->insert('INSERT INTO product_types (type) VALUES (\'' . $type . '\');');
+        }
+
         public function getProducts($productType) {
             return $this->DbAccess->get('SELECT * FROM products WHERE products.type=' . $productType . ';');
         }

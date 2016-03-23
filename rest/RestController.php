@@ -11,6 +11,15 @@
 
     $app = new Silex\Application();
 
+    use Symfony\Component\HttpFoundation\Request;
+
+    $app->before(function (Request $request) {
+        if (0 === strpos($request->headers->get('Content-Type'), 'application/json')) {
+            $data = json_decode($request->getContent(), true);
+            $request->request->replace(is_array($data) ? $data : array());
+        }
+    });
+
     $app->post('/upload', function () {
         $target_dir = "../assets/uploads/";
         $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -50,6 +59,10 @@
                 $result->message[] = 'Error during upload, please try again';
             }
         }
+    });
+
+    $app->post('/newface', function (\Symfony\Component\HttpFoundation\Request $request) {
+        return new \Symfony\Component\HttpFoundation\Response($request->get('test'), 400);
     });
 
     $app->mount('/products', new Product());
