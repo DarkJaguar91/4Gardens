@@ -8,14 +8,14 @@ app.factory('productTypes', function ($http) {
     productTypes.loadState = 0;
     productTypes.listeners = [];
 
-    productTypes.load = function (admin, onLoaded) {
+    productTypes.load = function (onLoaded) {
         if (productTypes.loadState == 2) {
             onLoaded(true);
         } else {
             productTypes.listeners.push(onLoaded);
             if (productTypes.loadState <= 0) {
                 productTypes.loadState = 1;
-                $http.get(admin ? '../rest/products' : 'rest/products', {}).then(
+                $http.get('rest/products', {}).then(
                     function (response) {
                         productTypes.addTypes(response.data);
                         productTypes.listeners.forEach(function (listener) {
@@ -39,7 +39,7 @@ app.factory('productTypes', function ($http) {
     productTypes.create = function ($typeName, onCreated) {
         var data = {};
         data.type = $typeName;
-        $http.post('../rest/products/newtype', data).then(
+        $http.post('rest/products/type/new', data).then(
             function ($response) {
                 if ($response.data.success) {
                     productTypes.addTypes([{id: $response.data.id, type: $typeName}]);
@@ -48,6 +48,26 @@ app.factory('productTypes', function ($http) {
             },
             function ($response) {
                 onCreated(false, $response.data.message);
+            }
+        );
+    };
+
+    productTypes.rename = function (id, type, onFinish) {
+        var data = {'type': type};
+        $http.put('rest/products/type/' + id, data).then(
+            function (response) {
+                if (response.data.success) {
+                    productTypes.list.forEach(function (type) {
+                        if (type.id == response.data.type.id) {
+                            type.type = response.data.type.type;
+                        }
+                    })
+                }
+
+                onFinish(response.data.success, response.data);
+            },
+            function (response) {
+                onFinish(false, response.data);
             }
         );
     };

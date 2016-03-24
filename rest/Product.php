@@ -65,7 +65,7 @@
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
             });
 
-            $products->post('/newtype', function (\Symfony\Component\HttpFoundation\Request $request) {
+            $products->post('/type/new', function (\Symfony\Component\HttpFoundation\Request $request) {
                 sleep(3);
                 $type = $request->request->get('type');
                 $output = new stdClass();

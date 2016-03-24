@@ -8,7 +8,7 @@ app.controller('ProductTypesController', ['$scope', '$timeout', 'productTypes', 
 
         $scope.types = productTypes.list;
 
-        productTypes.load(true, function (success) {
+    productTypes.load(function (success) {
             if (success) {
                 $scope.state = 'loaded';
             } else {
@@ -98,19 +98,7 @@ app.controller('ProductTypesController', ['$scope', '$timeout', 'productTypes', 
                             return text.indexOf($scope.search.toLowerCase()) > -1;
                         }
                     }
-                });
+                }).isotope();
             }
         });
-    }])
-    .directive('onFinishRender', function ($timeout) {
-        return {
-            restrict: 'A',
-            link: function (scope, element, attr) {
-                if (scope.$last === true) {
-                    $timeout(function () {
-                        scope.$emit('ngRepeatFinished');
-                    });
-                }
-            }
-        }
-    });
+}]);

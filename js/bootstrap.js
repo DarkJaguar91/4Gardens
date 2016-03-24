@@ -937,7 +937,7 @@ if (typeof jQuery === 'undefined') {
     if (this.options.remote) {
       this.$element
         .find('.modal-content')
-        .load(this.options.remote, $.proxy(function () {
+          .load($.proxy(function () {
           this.$element.trigger('loaded.bs.modal')
         }, this))
     }

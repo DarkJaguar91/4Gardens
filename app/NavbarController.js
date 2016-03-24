@@ -6,7 +6,7 @@ app.controller("NavbarController", function ($scope, $http, productTypes) {
     $scope.state = 'loading';
     $scope.products = productTypes.list;
 
-    productTypes.load(false, function (success) {
+    productTypes.load(function (success) {
         if (success) {
             $scope.state = 'loaded';
         } else {

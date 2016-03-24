@@ -16,6 +16,12 @@
     url('../fonts/glyphicons-halflings-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+.gardenBrand {
+    max-width: 575px;
+    display: block;
+    margin: auto;
+}
+
 .gardensFont {
     font-family: MasterOfBreak, serif;
 }
@@ -26,22 +32,37 @@
 }
 
 .product {
-    padding: 5px;
+    min-width: 250px;
+    max-width: 250px;
+    width: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    height: 250px;
+    margin: 5px;
 }
 
 .productBackground {
+    width: 250px;
+    height: 250px;
     background-color: #eee;
     border-radius: 6px;
 }
 
 .productImage {
-    z-index: -1;
+    position: absolute;
+    border-radius: 6px;
+    width: 250px;
+    top: 125px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .productTitle {
     background-color: rgba(2, 2, 2, 0.5);
+    border-radius: 6px;
     position: absolute;
-    top: 5px;
     font-family: MasterOfBreak, serif;
     padding: 5px 15px;
     margin: 0;
@@ -51,6 +72,7 @@
 
 .productPrice {
     background-color: rgba(200, 200, 200, 0.2);
+    border-radius: 6px;
     position: absolute;
     bottom: 5px;
     right: 5px;

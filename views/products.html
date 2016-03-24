@@ -6,7 +6,7 @@
         <img class="center-block fit" src="assets/images/loading.gif" alt="Loading">
     </div>
     <div class="animate-if" ng-if="state == 'done'">
-        <div class="product col-lg-4 col-sm-6" ng-repeat="item in products" on-finish-render="ngRepeatFinished">
+        <div class="product col-lg-4 col-sm-6" ng-repeat="item in products" on-finish-render>
             <div class="productBackground">
                 <img class="productImage fit center-block" src="{{item.image}}"/>
                 <div class="productTitle">

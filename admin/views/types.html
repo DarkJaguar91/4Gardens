@@ -3,7 +3,7 @@
 </div>
 
 <div class="jumbotron" ng-if="state == 'loading' || state == null">
-    <img class="center-block fit" src="../assets/images/loading.gif" alt="Loading">
+    <img class="center-block fit" src="assets/images/loading.gif" alt="Loading">
 </div>
 <div ng-if="state== 'loaded'">
     <div id="container">
@@ -14,15 +14,15 @@
             <input type="text" id="input{{item.id}}" placeholder="{{item.type}}">
             <button id="btn{{item.id}}" ng-click="onRename(item.id)"><img style="display: none;"
                                                                           class="rename-load input-image"
-                                                                          src="../assets/images/loading.gif"/>
+                                                                          src="assets/images/loading.gif"/>
                 <div class="rename-text">Rename</div>
             </button>
-            <button><img class="input-image" src="../assets/images/clear.png" alt="Delete"></button>
+            <button><img class="input-image" src="assets/images/clear.png" alt="Delete"></button>
         </div>
     </div>
 </div>
 <div style="width: 227px; margin: auto" class="type-item">
-    <img class="input-image" src="../assets/images/addSymbol.png" alt="Add"/>
+    <img class="input-image" src="assets/images/addSymbol.png" alt="Add"/>
     <label>Add New</label>
     <br>
     <div class="triangle-isosceles" ng-if="newTextError">
@@ -32,7 +32,7 @@
     </div>
     <input id="newText" type="text" placeholder="Type">
     <button id="btnNew" ng-click="onNewClick()">
-        <img class="input-image" src="../assets/images/addButton.png" alt="Add" ng-if="!creating"/>
-        <img class="input-image" src="../assets/images/loading.gif" alt="Add" ng-if="creating"/>
+        <img class="input-image" src="assets/images/addButton.png" alt="Add" ng-if="!creating"/>
+        <img class="input-image" src="assets/images/loading.gif" alt="Add" ng-if="creating"/>
     </button>
 </div>
