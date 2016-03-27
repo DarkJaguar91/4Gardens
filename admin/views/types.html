@@ -8,9 +8,6 @@
 <div ng-if="state== 'loaded'">
     <div id="container">
         <div class="type-item" ng-repeat="item in types" on-finish-render>
-            <div id="error{{item.id}}" class="triangle-isosceles" style="display: none">
-                <p></p>
-            </div>
             <input type="text" id="input{{item.id}}" placeholder="{{item.type}}">
             <button id="btn{{item.id}}" ng-click="onRename(item.id)"><img style="display: none;"
                                                                           class="rename-load input-image"
@@ -25,11 +22,6 @@
     <img class="input-image" src="assets/images/addSymbol.png" alt="Add"/>
     <label>Add New</label>
     <br>
-    <div class="triangle-isosceles" ng-if="newTextError">
-        <p>
-            {{newTextError}}
-        </p>
-    </div>
     <input id="newText" type="text" placeholder="Type">
     <button id="btnNew" ng-click="onNewClick()">
         <img class="input-image" src="assets/images/addButton.png" alt="Add" ng-if="!creating"/>

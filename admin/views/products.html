@@ -1,5 +1,5 @@
 <div class="well">
-    <button>Create New</button>
+    <button ng-click="showProduct(null)" ng-if="(list != null && list.length > 0) || empty">Create New</button>
     <input style="float: right" type="text" ng-change="onSearchChanged()" ng-model="search" placeholder="Search">
 </div>
 <div class="container-fluid jumbotron" ng-if="(list == null || list.length ===0) && !empty">
@@ -7,13 +7,57 @@
 </div>
 <div id="container" class="container-fluid animate-if" ng-if="list && list.length > 0">
     <div class="product" ng-repeat="item in list" on-finish-render>
-        <div class="productBackground">
+        <div class="productBackground" ng-click="showProduct(item)">
             <img class="productImage" src="{{item.image}}" alt="Loading"/>
             <div class="productTitle">
                 {{item.title}}
             </div>
             <div class="productPrice">
                 {{item.price | currency : 'R'}}{{item.declaration}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="product-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div id="modal-load" class="container-fluid" style="display: none">
+                <img class="fit center-block" src="assets/images/loading.gif"/>
+            </div>
+            <div id="modal-data">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <input id="modal-title" class="modal-title gardensFont" placeholder="Title"/>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div ngf-drop ngf-select ng-model="files" class=""
+                                 ngf-drag-over-class="'dragover'" ngf-multiple="true" ngf-allow-dir="true"
+                                 accept="image/*,application/pdf"
+                                 ngf-pattern="'image/*,application/pdf'">
+                                <img id="modal-image" class="fit center-block" src="{{selected.image}}" alt="Image"/>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <h1>Description</h1>
+                            <br/>
+                            <textarea id="modal-description" class="fit" cols="40" rows="10" ...></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div style="float: right; margin: 0 15px 0 0;" class="well">
+                            <input id="modal-price" type="number" min="0.01" step="0.01" max="2500"
+                                   placeholder="Price"/><input id="modal-declaration" placeholder="/item"/>
+                            <button ng-click="onSubmit()">{{submitName}}</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <hr/>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

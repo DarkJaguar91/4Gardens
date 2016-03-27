@@ -30,24 +30,21 @@
             $products = $app['controllers_factory'];
 
             $products->get('/', function () {
-                sleep(3);
                 return json_encode($this->productDb->getTypes());
             });
 
             $products->get('/{productType}', function ($productType) {
-                sleep(3);
                 return json_encode($this->productDb->getProducts($productType));
             });
 
             $products->put('/type/{typeId}', function (\Symfony\Component\HttpFoundation\Request $request, $typeId) {
-                sleep(3);
                 $output = new stdClass();
                 $output->success = false;
 
                 $type = $request->request->get('type');
 
                 if ($type != null && is_string($type)) {
-                    $success = $this->productDb->change((int)$typeId, $type);
+                    $success = $this->productDb->changeType((int)$typeId, $type);
                     if ($success === TRUE) {
                         $output->type = new stdClass();
                         $output->type->id = $typeId;
@@ -65,8 +62,66 @@
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
             });
 
+            $products->post('/product/new', function (\Symfony\Component\HttpFoundation\Request $request) {
+                $output = new stdClass();
+                $output->success = false;
+                $output->message = [];
+
+                $pass = true;
+                $type = $request->request->get('type');
+                $image = $request->request->get('image');
+                $title = $request->request->get('title');
+                $description = $request->request->get('description');
+                $price = $request->request->get('price');
+                if (is_null($type) && !is_int($type)) {
+                    $pass = false;
+                    $output->message[] = 'Type has to be set as an int';
+                }
+                if (is_null($image) && !is_string($image)) {
+                    $pass = false;
+                    $output->message[] = 'Image has to be set as a string';
+                }
+                if (is_null($title) && !is_string($title)) {
+                    $pass = false;
+                    $output->message[] = 'Title has to be set as a string';
+                }
+                if (is_null($description) && !is_string($description)) {
+                    $pass = false;
+                    $output->message[] = 'Description has to be set as a string';
+                }
+                if (is_null($price) && !is_float($price)) {
+                    $pass = false;
+                    $output->message[] = 'Price has to be set as a float';
+                }
+                if ($pass) {
+                    $code = uniqid();
+                    $id = $this->productDb->addProduct($type, $image, $title, $code,
+                        $description, $price,
+                        $request->request->get('declaration'));
+
+                    if (is_string($id)) {
+                        $output->message[] = $id;
+                        return new \Symfony\Component\BrowserKit\Response(json_encode($output), 400);
+                    }
+                    $output->success = true;
+                    $output->message[] = 'Successfully created item';
+                    $output->item = new stdClass();
+                    $output->item->id = $id;
+                    $output->item->id = $id;
+                    $output->item->image = $image;
+                    $output->item->title = $title;
+                    $output->item->code = $code;
+                    $output->item->description = $description;
+                    $output->item->price = $price;
+                    $output->item->declaration = $request->request->get('declaration');
+
+                    return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 200);
+                }
+
+                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
+            });
+
             $products->post('/type/new', function (\Symfony\Component\HttpFoundation\Request $request) {
-                sleep(3);
                 $type = $request->request->get('type');
                 $output = new stdClass();
                 $output->success = false;
@@ -83,6 +138,42 @@
                     return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 500);
                 }
                 $output->message = 'Type must constitute of text.';
+                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
+            });
+
+            $products->put('/product/update', function (\Symfony\Component\HttpFoundation\Request $request) {
+                $output = new stdClass();
+                $output->success = false;
+                $id = $request->request->get('id');
+                $type = $request->request->get('type');
+                $title = $request->request->get('title');
+                $image = $request->request->get('image');
+                $description = $request->request->get('description');
+                $price = $request->request->get('price');
+                $declaration = $request->request->get('declaration');
+
+                if ($id != null) {
+                    $success = $this->productDb->changeProduct((int)$id, $title, $type, $image, $description, $price, $declaration);
+                    if ($success === TRUE) {
+                        $output->item = new stdClass();
+                        $output->item->id = $id;
+                        $output->item->type = $type;
+                        $output->item->title = $title;
+                        $output->item->description = $description;
+                        $output->item->image = $image;
+                        $output->item->code = $request->request->get('code');;
+                        $output->item->price = $price;
+                        $output->item->declaration = $declaration;
+                        $output->success = TRUE;
+                        $output->message = 'Product changed successfully.';
+
+                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 200);
+                    } else {
+                        $output->message = $success;
+                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 500);
+                    }
+                }
+                $output->message = 'Item not recognized';
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
             });
 

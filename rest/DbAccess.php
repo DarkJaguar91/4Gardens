@@ -37,7 +37,7 @@ class DBAccess {
         if ($this->conn->query($SQL) == TRUE) {
             return $this->conn->insert_id;
         } else {
-            return -1;
+            return $this->conn->error;
         }
     }
 

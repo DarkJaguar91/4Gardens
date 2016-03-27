@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - angeli4_4gardens@localhost" uuid="8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf">
+    <database-info product="MySQL" version="5.7.9" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="angeli4_4gardens"/>
+      <table id="2" parent="1" name="gallery"/>
+      <table id="3" parent="1" name="product_types"/>
+      <table id="4" parent="1" name="products"/>
+      <column id="5" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(6) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="6" parent="2" name="product_id">
+        <mandatory>1</mandatory>
+        <data-type>int(6) unsigned</data-type>
+      </column>
+      <column id="7" parent="2" name="path">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="8" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="9" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(6) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="10" parent="3" name="type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="11" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="12" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(6) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="13" parent="4" name="type">
+        <mandatory>1</mandatory>
+        <data-type>int(6) unsigned</data-type>
+      </column>
+      <column id="14" parent="4" name="title">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="15" parent="4" name="code">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1024)</data-type>
+      </column>
+      <column id="16" parent="4" name="description">
+        <mandatory>1</mandatory>
+        <data-type>varchar(2048)</data-type>
+      </column>
+      <column id="17" parent="4" name="price">
+        <mandatory>1</mandatory>
+        <data-type>decimal(10)</data-type>
+      </column>
+      <column id="18" parent="4" name="declaration">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="19" parent="4" name="image">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="20" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

@@ -32,6 +32,7 @@
 }
 
 .product {
+    cursor: pointer;
     min-width: 250px;
     max-width: 250px;
     width: 250px;
@@ -49,6 +50,7 @@
 }
 
 .productImage {
+    cursor: pointer;
     position: absolute;
     border-radius: 6px;
     width: 250px;
@@ -57,6 +59,16 @@
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.center-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .productTitle {
@@ -81,4 +93,25 @@
     margin: 0;
     color: #000000;
     font-size: 18px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
 }

@@ -2,7 +2,7 @@
  * Created by bjtal on 2016/03/21.
  */
 
-app.controller('ProductTypesController', ['$scope', '$timeout', 'productTypes', function ($scope, $timeout, productTypes) {
+app.controller('ProductTypesController', ['$scope', '$timeout', 'productTypes', 'notifier', function ($scope, $timeout, productTypes, notifier) {
         $scope.state = 'loading';
         $scope.search = '';
 
@@ -26,32 +26,30 @@ app.controller('ProductTypesController', ['$scope', '$timeout', 'productTypes', 
             if (!$scope.creating) {
                 $scope.creating = true;
                 var $type = $('#newText').val();
-                $scope.newTextError = null;
 
                 if ($type && $type.length > 0) {
                     productTypes.create($type, function (success, message) {
                         if (success) {
                             $('#newText').val('');
+                            notifier.success("Type created");
                         } else {
-                            $scope.newTextError = message;
+                            notifier.alert(message);
                         }
                         $scope.creating = false;
                     });
                 } else {
-                    $scope.newTextError = 'Please enter a type name.';
+                    notifier.alert('Please enter a type name.');
                     $scope.creating = false;
                 }
             }
         };
 
         $scope.onRename = function ($id) {
-            var error = $('#error' + $id);
             var text = $('#input' + $id).val();
             var renameText = $('#btn' + $id).find('.rename-text');
             var renameLoad = $('#btn' + $id).find('.rename-load');
             renameText.hide();
             renameLoad.show();
-            error.hide();
 
             if (text && text.length > 0) {
                 productTypes.rename($id, text, function (success, response) {
@@ -59,19 +57,18 @@ app.controller('ProductTypesController', ['$scope', '$timeout', 'productTypes', 
                     renameLoad.hide();
                     if (success) {
                         $('#input' + response.type.id).val('');
+                        notifier.success("Type renamed");
                         $timeout(function () {
                             $('#container').isotope('updateSortData', $('.type-item').get()).isotope();
                         }, 10);
                     } else {
-                        error.find('p').text(response.message);
-                        error.show();
+                        notifier.alert(response.message);
                     }
                 });
             } else {
                 renameText.show();
                 renameLoad.hide();
-                error.find('p').text("Please enter a type name.");
-                error.show();
+                notifier.alert("Please enter a type name.");
             }
         };
 
