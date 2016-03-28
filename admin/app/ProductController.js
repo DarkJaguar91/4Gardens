@@ -39,7 +39,6 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
         $('#modal-title').val('');
         $('#modal-description').val('');
         $('#modal-price').val('');
-        $('#modal-declaration').val('');
         $('#delete-btn').hide();
         $('#modal-image').attr('src', '');
         $('#links').isotope('remove', $('#links').children()).isotope('destroy');
@@ -50,7 +49,6 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
         $('#modal-title').val($scope.selected.title);
         $('#modal-description').val($scope.selected.description);
         $('#modal-price').val($scope.selected.price);
-        $('#modal-declaration').val($scope.selected.declaration);
         $('#delete-btn').show();
 
         products.getGalleryForProduct($scope.selected.id, function (success, items) {
@@ -132,7 +130,7 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
 
     $scope.createItem = function (image) {
         products.create($routeParams.id, $('#modal-title').val(), image, $('#modal-description').val(),
-            parseFloat($('#modal-price').val()), $('#modal-declaration').val(), function (success, data) {
+            $('#modal-price').val(), function (success, data) {
                 if (success) {
                     notifier.success("Item created successfully");
                     $('.modal').modal('hide');
@@ -150,8 +148,7 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
 
         $scope.selected.title = $('#modal-title').val();
         $scope.selected.description = $('#modal-description').val();
-        $scope.selected.price = parseFloat($('#modal-price').val());
-        $scope.selected.declaration = $('#modal-declaration').val();
+        $scope.selected.price = $('#modal-price').val();
 
         products.update($scope.selected, function (success, message) {
             if (success) {

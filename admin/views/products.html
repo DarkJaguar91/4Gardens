@@ -12,8 +12,8 @@
             <div class="productTitle">
                 {{item.title}}
             </div>
-            <div class="productPrice">
-                {{item.price | currency : 'R'}}{{item.declaration}}
+            <div class="productPrice price">
+                {{item.price}}
             </div>
         </div>
     </div>
@@ -49,8 +49,7 @@
                     </div>
                     <div class="row">
                         <div style="float: right; margin: 0 15px 0 0;" class="well">
-                            <input id="modal-price" type="number" min="0.01" step="0.01" max="2500"
-                                   placeholder="Price"/><input id="modal-declaration" placeholder="/item"/>
+                            <textarea id="modal-price" cols="40" rows="2" placeholder="Price"/>
                             <button ng-click="onSubmit()">{{submitName}}</button>
                             <button id="delete-btn" ng-click="delete()">Delete</button>
                         </div>

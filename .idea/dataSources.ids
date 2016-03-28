@@ -62,21 +62,18 @@
         <data-type>varchar(1024)</data-type>
       </column>
       <column id="17" parent="4" name="description">
-        <mandatory>1</mandatory>
-        <data-type>varchar(2048)</data-type>
+        <data-type>varchar(20000)</data-type>
       </column>
-      <column id="18" parent="4" name="price">
-        <mandatory>1</mandatory>
-        <data-type>decimal(10)</data-type>
-      </column>
-      <column id="19" parent="4" name="declaration">
-        <data-type>varchar(10)</data-type>
-      </column>
-      <column id="20" parent="4" name="image">
+      <column id="18" parent="4" name="image">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <key id="21" parent="4" name="PRIMARY">
+      <column id="19" parent="4" name="price">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10000)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="20" parent="4" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>

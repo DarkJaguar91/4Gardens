@@ -93,9 +93,9 @@
                     $pass = false;
                     $output->message[] = 'Description has to be set as a string';
                 }
-                if (is_null($price) && !is_float($price)) {
+                if (is_null($price) && !is_string($price)) {
                     $pass = false;
-                    $output->message[] = 'Price has to be set as a float';
+                    $output->message[] = 'Price has to be set as a string';
                 }
                 if ($pass) {
                     $code = uniqid();
@@ -117,7 +117,6 @@
                     $output->item->code = $code;
                     $output->item->description = $description;
                     $output->item->price = $price;
-                    $output->item->declaration = $request->request->get('declaration');
 
                     return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 200);
                 }
@@ -181,10 +180,9 @@
                 $image = $request->request->get('image');
                 $description = $request->request->get('description');
                 $price = $request->request->get('price');
-                $declaration = $request->request->get('declaration');
 
                 if ($id != null) {
-                    $success = $this->productDb->changeProduct((int)$id, $title, $type, $image, $description, $price, $declaration);
+                    $success = $this->productDb->changeProduct((int)$id, $title, $type, $image, $description, $price);
                     if ($success === TRUE) {
                         $output->item = new stdClass();
                         $output->item->id = $id;
@@ -194,7 +192,6 @@
                         $output->item->image = $image;
                         $output->item->code = $request->request->get('code');;
                         $output->item->price = $price;
-                        $output->item->declaration = $declaration;
                         $output->success = TRUE;
                         $output->message = 'Product changed successfully.';
 

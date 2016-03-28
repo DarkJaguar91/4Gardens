@@ -42,13 +42,13 @@
 
         public function addProduct($type, $image, $title, $code, $description, $price, $declaration)
         {
-            $sql = "INSERT INTO products (type, title, code, description, price, declaration, image) VALUES (" . $type . ", '" . $title . "', '" . $code . "', '" . $description . "', " . $price . ", " . (is_null($declaration) ? "null" : "'" . $declaration . "'") . ", '" . str_replace('\\', '', $image) . "');";
+            $sql = "INSERT INTO products (type, title, code, description, price, image) VALUES (" . $type . ", '" . $title . "', '" . $code . "', '" . $description . "', '" . $price . "', '" . str_replace('\\', '', $image) . "');";
             return $this->DbAccess->insert($sql);
         }
 
-        public function changeProduct($id, $title, $type, $image, $description, $price, $declaration)
+        public function changeProduct($id, $title, $type, $image, $description, $price)
         {
-            return $this->DbAccess->update("UPDATE products SET description='" . $description . "', title='" . $title . "', declaration=" . ($declaration == null ? "null" : "'" . $declaration . "'") . ", image='" . $image . "', type=" . $type . ", price=" . $price . "  WHERE id=" . $id . ";");
+            return $this->DbAccess->update("UPDATE products SET description='" . $description . "', title='" . $title . "', image='" . $image . "', type=" . $type . ", price='" . $price . "'  WHERE id=" . $id . ";");
         }
 
         public function deleteGalleryItemForProduct($id)

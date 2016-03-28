@@ -26,6 +26,8 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', '$ti
 
         $scope.selected = item;
         if (item) {
+            $('#links').empty();
+            $('#links').isotope('destroy');
             $scope.setupModal();
         }
     };

@@ -15,8 +15,8 @@
             <div class="productTitle">
                 {{item.title}}
             </div>
-            <div class="productPrice">
-                {{item.price | currency : 'R'}}{{item.declaration}}
+            <div class="productPrice price">
+                {{item.price}}
             </div>
         </div>
     </div>
@@ -38,13 +38,12 @@
                         </div>
                         <div class="col-lg-7">
                             <h1>Description</h1>
-                            <br/>
-                            <p id="modal-description">{{selected.description}}</p>
+                            <pre>{{selected.description}}</pre>
                         </div>
                     </div>
                     <div class="row">
-                        <div style="float: right; margin: 0 15px 0 0;" class="well">
-                            <h3 id="modal-price">{{selected.price | currency : 'R'}}{{selected.declaration}}</h3>
+                        <div style="float: right; margin: 0 15px 0 0;">
+                            <pre id="modal-price">{{selected.price}}</pre>
                         </div>
                     </div>
                     <div class="row">

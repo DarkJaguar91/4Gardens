@@ -35,14 +35,14 @@ app.factory('products', function ($http) {
         }
     };
 
-    products.create = function (type, title, image, description, price, declaration, onCreated) {
+    products.create = function (type, title, image, description, price, onCreated) {
         var data = {};
         data.type = type;
         data.title = title;
         data.image = image;
         data.description = description;
         data.price = price;
-        data.declaration = declaration;
+        console.log(data);
         $http.post('rest/products/product/new', data).then(
             function ($response) {
                 if ($response.data.success) {
@@ -65,7 +65,6 @@ app.factory('products', function ($http) {
                             item.title = response.data.item.title;
                             item.description = response.data.item.description;
                             item.price = response.data.item.price;
-                            item.declaration = response.data.item.declaration;
                             item.image = response.data.item.image;
                         }
                     });
