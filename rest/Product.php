@@ -33,6 +33,10 @@
                 return json_encode($this->productDb->getTypes());
             });
 
+            $products->get('/gallery/{id}', function ($id) {
+                return json_encode($this->productDb->getGallery($id));
+            });
+
             $products->get('/{productType}', function ($productType) {
                 return json_encode($this->productDb->getProducts($productType));
             });
@@ -141,6 +145,33 @@
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
             });
 
+            $products->post('/gallery', function (\Symfony\Component\HttpFoundation\Request $request) {
+                $type = $request->request->get('type');
+                $prodID = $request->request->get('productID');
+                $path = $request->request->get('path');
+                $output = new stdClass();
+                $output->success = false;
+
+                if ($type != null && is_string($type)) {
+                    $id = $this->productDb->addGalleryItem($type, $prodID, $path);
+                    if ($id >= 0) {
+                        $output->success = true;
+                        $output->item = new stdClass();
+                        $output->item->id = $id;
+                        $output->item->type = $id;
+                        $output->item->product_id = $prodID;
+                        $output->item->path = $path;
+                        $output->message = 'Image created successfully';
+
+                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 200);
+                    }
+                    $output->message = 'Image could not be added.';
+                    return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 500);
+                }
+                $output->message = 'Type must constitute of text.';
+                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
+            });
+
             $products->put('/product/update', function (\Symfony\Component\HttpFoundation\Request $request) {
                 $output = new stdClass();
                 $output->success = false;
@@ -175,6 +206,28 @@
                 }
                 $output->message = 'Item not recognized';
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
+            });
+
+            $products->delete('/product/{id}', function ($id) {
+                $output = new stdClass();
+                $response = $this->productDb->deleteProduct($id);
+                $output->success = $response === TRUE;
+                $output->message = $response;
+                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), $output->success ? 200 : 400);
+            });
+
+            $products->delete('/gallery/{id}', function ($id) {
+                $output = new stdClass();
+                $response = $this->productDb->deleteGalleryItem($id);
+                $output->success = $response === TRUE;
+                $output->message = $response;
+                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), $output->success ? 200 : 400);
+            });
+
+            $products->delete('/type/{id}', function ($id) {
+                $output = new stdClass();
+                $output->success = $this->productDb->deleteType($id);
+                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), $output->success ? 200 : 400);
             });
 
             return $products;

@@ -115,3 +115,9 @@
     cursor: inherit;
     display: block;
 }
+
+.gallery-item {
+    min-width: 150px;
+    max-width: 150px;
+    margin: 5px;
+}

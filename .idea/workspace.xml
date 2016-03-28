@@ -1,119 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dce77bb-fcf4-4d41-b4ca-c034432a1938" name="Default" comment="Product Type renaming complete">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7af7bf16a9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7afd5d0715.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7aff95b29e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7b0295c6eb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7b0bc882fe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7b0dfb9660.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7cc313e5a4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7ccda292d6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7cd1663732.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7d6b32a96f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7d6f02112d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7d738c35ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7d90c99e5c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7d9522e0e4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7e1a3a8571.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7e1e660d98.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7e26ba9f32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7e29836cd6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/image_56f7e2ca0eda5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/img/progressbar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/gae-go/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/gae-python/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ng-file-upload-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ng-file-upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/jquery.noty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/bottom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/bottomCenter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/bottomLeft.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/bottomRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/center.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/centerLeft.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/centerRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/inline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/top.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/topCenter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/topLeft.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/layouts/topRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/packaged/jquery.noty.packaged.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/packaged/jquery.noty.packaged.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/themes/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/themes/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/noty/themes/relax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/NotifierServer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/angularjs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/basic-plus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/basic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/cors/postmessage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/cors/result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/css/demo-ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/css/jquery.fileupload-noscript.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/css/jquery.fileupload-ui-noscript.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/css/jquery.fileupload-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/css/jquery.fileupload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/jquery-ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/cors/jquery.postmessage-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/cors/jquery.xdr-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload-audio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload-image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload-jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload-process.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload-validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload-video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.fileupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/jquery.iframe-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/js/vendor/jquery.ui.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/gae-go/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/gae-go/app/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/gae-go/static/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/gae-python/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/gae-python/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/gae-python/static/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/php/UploadHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/php/files/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/php/files/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/server/php/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload-example/test/test.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test.js" afterPath="" />
+    <list default="true" id="8dce77bb-fcf4-4d41-b4ca-c034432a1938" name="Default" comment="Admin almost done">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-image-gallery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-image-gallery.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-image-gallery.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/css/bootstrap-image-gallery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/css/bootstrap-image-gallery.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/css/bootstrap-image-gallery.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/js/bootstrap-image-gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/js/bootstrap-image-gallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/js/bootstrap-image-gallery.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagegal/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-image-gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-image-gallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-image-gallery.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/demo.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/ZebraPlant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/fountain1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7af7bf16a9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7afd5d0715.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7aff95b29e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7b0295c6eb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7b0bc882fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7b0dfb9660.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7cc313e5a4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7ccda292d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7cd1663732.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7d6b32a96f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7d6f02112d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7d738c35ed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7d90c99e5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7d9522e0e4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7e1a3a8571.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7e1e660d98.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7e26ba9f32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7e29836cd6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/image_56f7e2ca0eda5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/pebbles.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/pot1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/uploads/pot2.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.html" afterPath="$PROJECT_DIR$/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/app/4Gardens.js" afterPath="$PROJECT_DIR$/admin/app/4Gardens.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/app/ProductController.js" afterPath="$PROJECT_DIR$/admin/app/ProductController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/app/ProductTypesController.js" afterPath="$PROJECT_DIR$/admin/app/ProductTypesController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/admin.css" afterPath="$PROJECT_DIR$/admin/css/admin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/products.html" afterPath="$PROJECT_DIR$/admin/views/products.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/types.html" afterPath="$PROJECT_DIR$/admin/views/types.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/4Gardens.css" afterPath="$PROJECT_DIR$/css/4Gardens.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/DbAccess.php" afterPath="$PROJECT_DIR$/rest/DbAccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/Product.php" afterPath="$PROJECT_DIR$/rest/Product.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/ProductDB.php" afterPath="$PROJECT_DIR$/rest/ProductDB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/RestController.php" afterPath="$PROJECT_DIR$/rest/RestController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/ProductService.js" afterPath="$PROJECT_DIR$/service/ProductService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/productTypeService.js" afterPath="$PROJECT_DIR$/service/productTypeService.js" />
     </list>
     <ignored path="4Gaardens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,6 +91,20 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - angeli4_4gardens@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="gallery" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -155,8 +115,8 @@
       <file leaf-file-name="ProductTypesController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/app/ProductTypesController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="62" column="31" selection-start-line="60" selection-start-column="24" selection-end-line="62" selection-end-column="31" />
+            <state relative-caret-position="-301">
+              <caret line="84" column="108" selection-start-line="84" selection-start-column="83" selection-end-line="84" selection-end-column="108" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -164,26 +124,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/app/ProductController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="147" column="23" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+            <state relative-caret-position="1407">
+              <caret line="242" column="48" selection-start-line="242" selection-start-column="48" selection-end-line="242" selection-end-column="48" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/views/products.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <marker date="1459150899486" expanded="true" signature="8241:8261" placeholder="..." />
+                <marker date="1459150899486" expanded="true" signature="8241:8280" placeholder="..." />
+                <marker date="1459150899486" expanded="true" signature="8439:8454" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -192,69 +142,10 @@
       <file leaf-file-name="ProductService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/ProductService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state relative-caret-position="316">
+              <caret line="144" column="69" selection-start-line="144" selection-start-column="69" selection-end-line="144" selection-end-column="69" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTypeService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/ProductTypeService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="63" column="22" selection-start-line="59" selection-start-column="20" selection-end-line="63" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4Gardens.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/4Gardens.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/ProductDB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="e#10#113#0#PHP" expanded="true" />
-                <marker date="1459085173525" expanded="true" signature="448:462" placeholder="SELECT * FRO... products" />
-                <marker date="1459085173525" expanded="true" signature="448:475" placeholder="SELECT * FRO... product_types" />
-                <marker date="1459085173525" expanded="true" signature="448:507" placeholder="SELECT * FRO... product_types" />
-                <marker date="1459085173525" expanded="true" signature="616:657" placeholder="INSERT INTO product_types... " />
-                <marker date="1459085173525" expanded="true" signature="616:675" placeholder="INSERT INTO product_types... " />
-                <marker date="1459085173525" expanded="true" signature="792:835" placeholder="SELECT * FRO... products" />
-                <marker date="1459085173525" expanded="true" signature="792:857" placeholder="SELECT * FRO... products" />
-                <marker date="1459085173525" expanded="true" signature="980:1010" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="980:1012" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="980:1031" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="980:1041" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="980:1055" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="980:1056" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="980:1057" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1203:1382" placeholder="INSERT INTO products... " />
-                <marker date="1459085173525" expanded="true" signature="1203:1491" placeholder="INSERT INTO products... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1744" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1774" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1775" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1804" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1879" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1901" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1922" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1947" placeholder="UPDATE produ... " />
-                <marker date="1459085173525" expanded="true" signature="1712:1961" placeholder="UPDATE produ... " />
               </folding>
             </state>
           </provider>
@@ -263,34 +154,121 @@
       <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-991">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="370">
+              <caret line="220" column="62" selection-start-line="220" selection-start-column="62" selection-end-line="220" selection-end-column="62" />
+              <folding>
+                <element signature="e#119#141#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/console.sql">
+      <file leaf-file-name="ProductDB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest/ProductDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="93" />
+            <state relative-caret-position="450">
+              <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
+              <folding>
+                <element signature="e#10#113#0#PHP" expanded="true" />
+                <marker date="1459150793605" expanded="true" signature="448:462" placeholder="SELECT * FRO... products" />
+                <marker date="1459150793605" expanded="true" signature="448:475" placeholder="SELECT * FRO... product_types" />
+                <marker date="1459150793605" expanded="true" signature="448:507" placeholder="SELECT * FRO... product_types" />
+                <marker date="1459150793605" expanded="true" signature="616:657" placeholder="INSERT INTO product_types... " />
+                <marker date="1459150793605" expanded="true" signature="616:675" placeholder="INSERT INTO product_types... " />
+                <marker date="1459150793605" expanded="true" signature="792:835" placeholder="SELECT * FRO... products" />
+                <marker date="1459150793605" expanded="true" signature="792:857" placeholder="SELECT * FRO... products" />
+                <marker date="1459150793605" expanded="true" signature="980:1010" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="980:1012" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="980:1031" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="980:1041" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="980:1055" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="980:1056" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="980:1057" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="1203:1382" placeholder="INSERT INTO products... " />
+                <marker date="1459150793605" expanded="true" signature="1203:1491" placeholder="INSERT INTO products... " />
+                <marker date="1459150793605" expanded="true" signature="1712:1744" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="1712:1774" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="1712:1775" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="1712:1804" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="1712:1879" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="1712:1901" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="1712:1922" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="1712:1947" placeholder="UPDATE produ... " />
+                <marker date="1459150793605" expanded="true" signature="2075:2114" placeholder="SELECT * FRO... gallery" />
+                <marker date="1459150793605" expanded="true" signature="2075:2127" placeholder="SELECT * FRO... gallery" />
+                <marker date="1459150793605" expanded="true" signature="2275:2312" placeholder="DELETE FROM " />
+                <marker date="1459150793605" expanded="true" signature="2281:2312" placeholder="SELECT * FRO... gallery" />
+                <marker date="1459150793605" expanded="true" signature="2507:2539" placeholder="SELECT * FRO... products" />
+                <marker date="1459150793605" expanded="true" signature="2507:2552" placeholder="SELECT * FRO... products" />
+                <marker date="1459150793605" expanded="true" signature="2718:2748" placeholder="DELETE FROM " />
+                <marker date="1459150793605" expanded="true" signature="2913:2946" placeholder="SELECT * FRO... gallery" />
+                <marker date="1459150793605" expanded="true" signature="3107:3138" placeholder="DELETE FROM " />
+                <marker date="1459150793605" expanded="true" signature="3268:3302" placeholder="SELECT * FRO... products" />
+                <marker date="1459150793605" expanded="true" signature="3465:3497" placeholder="DELETE FROM " />
+                <marker date="1459150793605" expanded="true" signature="3756:3791" placeholder="DELETE FROM " />
+                <marker date="1459150793605" expanded="true" signature="3756:3804" placeholder="DELETE FROM " />
+                <marker date="1459150793605" expanded="true" signature="3967:4006" placeholder="SELECT * FRO... gallery" />
+                <marker date="1459150793605" expanded="true" signature="4124:4177" placeholder="INSERT INTO gallery... " />
+                <marker date="1459150793605" expanded="true" signature="4124:4200" placeholder="INSERT INTO gallery... " />
+                <marker date="1459150793605" expanded="true" signature="4124:4235" placeholder="INSERT INTO gallery... " />
+                <marker date="1459150793605" expanded="true" signature="4399:4430" placeholder="SELECT * FRO... gallery" />
+                <marker date="1459150793605" expanded="true" signature="4591:4620" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4Gardens.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/4Gardens.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angeli4_4gardens.products" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/9340519d/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/angeli4_4gardens.products">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="products.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/views/products.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="text-editor">
+        </entry>
+      </file>
+      <file leaf-file-name="demo.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imagegal/css/demo.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-353">
+              <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -312,7 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/add_order.html" />
         <option value="$PROJECT_DIR$/views/show_order.html" />
         <option value="$PROJECT_DIR$/app/tmp.js" />
         <option value="$PROJECT_DIR$/index.old.html" />
@@ -338,7 +315,6 @@
         <option value="$PROJECT_DIR$/app/ProductsController.js" />
         <option value="$PROJECT_DIR$/admin/index.html" />
         <option value="$PROJECT_DIR$/rest/ProductController.php" />
-        <option value="$PROJECT_DIR$/service/ProductTypeService.js" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/products.html" />
@@ -349,20 +325,22 @@
         <option value="$PROJECT_DIR$/admin/app/4Gardens.js" />
         <option value="$PROJECT_DIR$/admin/css/admin.css" />
         <option value="$PROJECT_DIR$/rest/RestController.php" />
-        <option value="$PROJECT_DIR$/rest/DbAccess.php" />
         <option value="dbtable:/9340519d/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/angeli4_4gardens.products" />
         <option value="$PROJECT_DIR$/service/Notifier.js" />
-        <option value="$PROJECT_DIR$/admin.html" />
-        <option value="$PROJECT_DIR$/admin/views/types.html" />
         <option value="$PROJECT_DIR$/service/NotifierServer.js" />
-        <option value="$PROJECT_DIR$/admin/app/ProductTypesController.js" />
-        <option value="$PROJECT_DIR$/css/4Gardens.css" />
-        <option value="$PROJECT_DIR$/admin/views/products.html" />
+        <option value="$PROJECT_DIR$/rest/DbAccess.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/console.sql" />
+        <option value="$PROJECT_DIR$/admin/views/types.html" />
+        <option value="$PROJECT_DIR$/service/ProductTypeService.js" />
+        <option value="$PROJECT_DIR$/imagegal/index.html" />
+        <option value="$PROJECT_DIR$/admin.html" />
+        <option value="$PROJECT_DIR$/css/4Gardens.css" />
+        <option value="$PROJECT_DIR$/admin/app/ProductTypesController.js" />
+        <option value="$PROJECT_DIR$/rest/Product.php" />
         <option value="$PROJECT_DIR$/rest/ProductDB.php" />
         <option value="$PROJECT_DIR$/service/ProductService.js" />
-        <option value="$PROJECT_DIR$/rest/Product.php" />
         <option value="$PROJECT_DIR$/admin/app/ProductController.js" />
+        <option value="$PROJECT_DIR$/admin/views/products.html" />
       </list>
     </option>
   </component>
@@ -412,7 +390,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -459,20 +437,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Gardens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Gardens" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="rest" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -501,11 +465,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noty" />
+              <option name="myItemId" value="imagegal" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,15 +479,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="imagegal" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="noty" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,6 +532,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -608,28 +568,6 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Gardens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Gardens" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -655,11 +593,11 @@
       <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\rest\silex" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\imagegal" />
       <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\js" />
       <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens" />
       <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\test" />
       <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\service" />
-      <recent name="C:\Users\bjtal\PhpstormProjects\4Gaardens\rest\silex" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Remote Debug.Test">
@@ -738,7 +676,7 @@
       <workItem from="1458503741051" duration="5953000" />
       <workItem from="1458511060826" duration="48582000" />
       <workItem from="1458711345920" duration="17226000" />
-      <workItem from="1459011914879" duration="25132000" />
+      <workItem from="1459011914879" duration="40483000" />
     </task>
     <task id="LOCAL-00001" summary="So far so good">
       <created>1458508955328</created>
@@ -775,30 +713,37 @@
       <option name="project" value="LOCAL" />
       <updated>1458822375372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Admin almost done">
+      <created>1459086363115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459086363115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120201000" />
+    <option name="totallyTimeSpent" value="135552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2636656" sideWeight="0.5042644" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15884861" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762313" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2633833" sideWeight="0.48933902" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2636656" sideWeight="0.48933902" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32690248" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4871795" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -815,18 +760,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2636656" sideWeight="0.5042644" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2633833" sideWeight="0.48933902" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2636656" sideWeight="0.48933902" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15884861" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15884861" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762313" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -846,7 +791,8 @@
     <MESSAGE value="So far so good" />
     <MESSAGE value="Started Admin section" />
     <MESSAGE value="Product Type renaming complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product Type renaming complete" />
+    <MESSAGE value="Admin almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin almost done" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -869,57 +815,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/views/products.js" />
-    <entry file="file://$PROJECT_DIR$/test/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="37" column="39" selection-start-line="36" selection-start-column="20" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="576" column="2" selection-start-line="576" selection-start-column="2" selection-end-line="584" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysqli.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="491" column="20" selection-start-line="491" selection-start-column="20" selection-end-line="491" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="342" column="9" selection-start-line="342" selection-start-column="9" selection-end-line="342" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/ProductController.php" />
-    <entry file="dbDummy://dbtable:/9340519d/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/angeli4_4gardens.product_types">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/app/NavbarController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1119,22 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/DbAccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/RestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/noty/themes/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1151,54 +1030,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.html">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/NotifierServer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="136">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/4Gardens.css">
+    <entry file="file://$PROJECT_DIR$/admin/views/types.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="16" column="135" selection-start-line="16" selection-start-column="135" selection-end-line="16" selection-end-column="135" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/ProductTypeService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="63" column="22" selection-start-line="59" selection-start-column="20" selection-end-line="63" selection-end-column="22" />
+        <state relative-caret-position="276">
+          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/console.sql">
+    <entry file="file://$PROJECT_DIR$/assets/uploads/image_56f82c54a5919.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/RestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="93" />
+        <state relative-caret-position="658">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/DbAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1216,64 +1100,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/products.html">
+    <entry file="dbDummy://dbtable:/9340519d/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/angeli4_4gardens.product_types">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/9340519d/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/angeli4_4gardens.gallery">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagegal/js/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagegal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="118" column="85" selection-start-line="118" selection-start-column="85" selection-end-line="120" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagegal/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/4Gardens.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="220" column="62" selection-start-line="220" selection-start-column="62" selection-end-line="220" selection-end-column="62" />
+          <folding>
+            <element signature="e#119#141#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rest/ProductDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="450">
+          <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
           <folding>
             <element signature="e#10#113#0#PHP" expanded="true" />
-            <marker date="1459085173525" expanded="true" signature="448:462" placeholder="SELECT * FRO... products" />
-            <marker date="1459085173525" expanded="true" signature="448:475" placeholder="SELECT * FRO... product_types" />
-            <marker date="1459085173525" expanded="true" signature="448:507" placeholder="SELECT * FRO... product_types" />
-            <marker date="1459085173525" expanded="true" signature="616:657" placeholder="INSERT INTO product_types... " />
-            <marker date="1459085173525" expanded="true" signature="616:675" placeholder="INSERT INTO product_types... " />
-            <marker date="1459085173525" expanded="true" signature="792:835" placeholder="SELECT * FRO... products" />
-            <marker date="1459085173525" expanded="true" signature="792:857" placeholder="SELECT * FRO... products" />
-            <marker date="1459085173525" expanded="true" signature="980:1010" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="980:1012" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="980:1031" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="980:1041" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="980:1055" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="980:1056" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="980:1057" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1203:1382" placeholder="INSERT INTO products... " />
-            <marker date="1459085173525" expanded="true" signature="1203:1491" placeholder="INSERT INTO products... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1744" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1774" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1775" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1804" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1879" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1901" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1922" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1947" placeholder="UPDATE produ... " />
-            <marker date="1459085173525" expanded="true" signature="1712:1961" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="448:462" placeholder="SELECT * FRO... products" />
+            <marker date="1459150793605" expanded="true" signature="448:475" placeholder="SELECT * FRO... product_types" />
+            <marker date="1459150793605" expanded="true" signature="448:507" placeholder="SELECT * FRO... product_types" />
+            <marker date="1459150793605" expanded="true" signature="616:657" placeholder="INSERT INTO product_types... " />
+            <marker date="1459150793605" expanded="true" signature="616:675" placeholder="INSERT INTO product_types... " />
+            <marker date="1459150793605" expanded="true" signature="792:835" placeholder="SELECT * FRO... products" />
+            <marker date="1459150793605" expanded="true" signature="792:857" placeholder="SELECT * FRO... products" />
+            <marker date="1459150793605" expanded="true" signature="980:1010" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="980:1012" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="980:1031" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="980:1041" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="980:1055" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="980:1056" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="980:1057" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="1203:1382" placeholder="INSERT INTO products... " />
+            <marker date="1459150793605" expanded="true" signature="1203:1491" placeholder="INSERT INTO products... " />
+            <marker date="1459150793605" expanded="true" signature="1712:1744" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="1712:1774" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="1712:1775" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="1712:1804" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="1712:1879" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="1712:1901" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="1712:1922" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="1712:1947" placeholder="UPDATE produ... " />
+            <marker date="1459150793605" expanded="true" signature="2075:2114" placeholder="SELECT * FRO... gallery" />
+            <marker date="1459150793605" expanded="true" signature="2075:2127" placeholder="SELECT * FRO... gallery" />
+            <marker date="1459150793605" expanded="true" signature="2275:2312" placeholder="DELETE FROM " />
+            <marker date="1459150793605" expanded="true" signature="2281:2312" placeholder="SELECT * FRO... gallery" />
+            <marker date="1459150793605" expanded="true" signature="2507:2539" placeholder="SELECT * FRO... products" />
+            <marker date="1459150793605" expanded="true" signature="2507:2552" placeholder="SELECT * FRO... products" />
+            <marker date="1459150793605" expanded="true" signature="2718:2748" placeholder="DELETE FROM " />
+            <marker date="1459150793605" expanded="true" signature="2913:2946" placeholder="SELECT * FRO... gallery" />
+            <marker date="1459150793605" expanded="true" signature="3107:3138" placeholder="DELETE FROM " />
+            <marker date="1459150793605" expanded="true" signature="3268:3302" placeholder="SELECT * FRO... products" />
+            <marker date="1459150793605" expanded="true" signature="3465:3497" placeholder="DELETE FROM " />
+            <marker date="1459150793605" expanded="true" signature="3756:3791" placeholder="DELETE FROM " />
+            <marker date="1459150793605" expanded="true" signature="3756:3804" placeholder="DELETE FROM " />
+            <marker date="1459150793605" expanded="true" signature="3967:4006" placeholder="SELECT * FRO... gallery" />
+            <marker date="1459150793605" expanded="true" signature="4124:4177" placeholder="INSERT INTO gallery... " />
+            <marker date="1459150793605" expanded="true" signature="4124:4200" placeholder="INSERT INTO gallery... " />
+            <marker date="1459150793605" expanded="true" signature="4124:4235" placeholder="INSERT INTO gallery... " />
+            <marker date="1459150793605" expanded="true" signature="4399:4430" placeholder="SELECT * FRO... gallery" />
+            <marker date="1459150793605" expanded="true" signature="4591:4620" placeholder="DELETE FROM " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-991">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/ProductService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        <state relative-caret-position="316">
+          <caret line="144" column="69" selection-start-line="144" selection-start-column="69" selection-end-line="144" selection-end-column="69" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
@@ -1282,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/app/ProductTypesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="62" column="31" selection-start-line="60" selection-start-column="24" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="-301">
+          <caret line="84" column="108" selection-start-line="84" selection-start-column="83" selection-end-line="84" selection-end-column="108" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
@@ -1292,10 +1269,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/app/ProductController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="147" column="23" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+        <state relative-caret-position="1407">
+          <caret line="242" column="48" selection-start-line="242" selection-start-column="48" selection-end-line="242" selection-end-column="48" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
+            <marker date="1459150899486" expanded="true" signature="8241:8261" placeholder="..." />
+            <marker date="1459150899486" expanded="true" signature="8241:8280" placeholder="..." />
+            <marker date="1459150899486" expanded="true" signature="8439:8454" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

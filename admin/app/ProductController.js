@@ -16,7 +16,6 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
     });
 
     $scope.onSearchChanged = function () {
-        console.log($('.product:first').find('.productTitle').text());
         if ($scope.isotoped) {
             $('#container').isotope();
         }
@@ -41,6 +40,10 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
         $('#modal-description').val('');
         $('#modal-price').val('');
         $('#modal-declaration').val('');
+        $('#delete-btn').hide();
+        $('#modal-image').attr('src', '');
+        $('#links').isotope('remove', $('#links').children()).isotope('destroy');
+        $('#links').empty();
     };
 
     $scope.setupModal = function () {
@@ -48,6 +51,20 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
         $('#modal-description').val($scope.selected.description);
         $('#modal-price').val($scope.selected.price);
         $('#modal-declaration').val($scope.selected.declaration);
+        $('#delete-btn').show();
+
+        products.getGalleryForProduct($scope.selected.id, function (success, items) {
+            items.forEach(function (item) {
+                var $a = createNewImageItem(item);
+
+                $('#links').append($a);
+            });
+            $timeout(function () {
+                $('#links').isotope({
+                    itemSelector: '.gallery-item'
+                });
+            }, 500);
+        });
     };
 
     $scope.imageSelected = function (event) {
@@ -67,8 +84,6 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
                     url: 'rest/upload',
                     file: $scope.imageToUpload
                 }).then(function (response) { // success
-                    console.log('success');
-                    console.log(response);
                     $scope.imageToUpload = null;
                     if ($scope.selected == null) {
                         $scope.createItem(response.data.url);
@@ -76,8 +91,6 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
                         $scope.updateItem(response.data.url);
                     }
                 }, function (response) { // error
-                    console.log('fail');
-                    console.log(response.data);
                     $scope.imageToUpload = null;
                     response.data.message.forEach(function (msg) {
                         notifier.alert(msg);
@@ -161,6 +174,93 @@ app.controller("ProductsController", ['$scope', '$routeParams', 'products', 'Upl
     $scope.setModalVisible = function () {
         $('#modal-load').hide();
         $('#modal-data').show();
+    };
+
+    $scope.delete = function () {
+        noty({
+            text: 'Are you sure you want to delete this item?',
+            type: 'error',
+            dismissQueue: true,
+            layout: 'center',
+            buttons: [
+                {
+                    addClass: 'btn btn-primary', text: 'Delete', onClick: function ($noty) {
+                    $noty.close();
+                    $scope.setModalLoading();
+                    products.delete($scope.selected.id, $routeParams.id, function (success, message) {
+                        if (success) {
+                            notifier.success("Successfully deleted");
+                            $('#container').isotope('remove', $('#container').find('.product[id=' + $scope.selected.id + ']')).isotope();
+                            $('.modal').modal('hide');
+                        } else {
+                            notifier.alert(message);
+                        }
+                        $scope.setModalVisible();
+                    });
+                }
+                },
+                {
+                    addClass: 'btn btn-danger', text: 'Cancel', onClick: function ($noty) {
+                    $noty.close();
+                }
+                }
+            ]
+        });
+    };
+
+    $scope.deleteGalleryItem = function (id) {
+        var item = $('.gallery-item[gallery-id=' + id + ']');
+        var btn = item.find('.gallery-delete-image');
+        btn.attr('src', 'assets/images/loading.gif');
+        products.deleteGalleryItem(id, $scope.selected.id, function (success, message) {
+            btn.attr('src', 'assets/images/clear.png');
+            if (success) {
+                $('#links').isotope('remove', item).isotope();
+            } else {
+                notifier.alert(message);
+            }
+        });
+    };
+
+    function createNewImageItem(item) {
+        return $('<div class="gallery-item" gallery-id="' + item.id + '">' +
+            '<a href="' + item.path + '" title="" data-gallery>' +
+            '<img class="fit" src="' + item.path + '" alt="Image">' +
+            '</a>' +
+            '<button style="position: absolute; bottom: 0; right: 0" class="btn btn-default" onclick="angular.element(this).scope().deleteGalleryItem(' + item.id + ')">' +
+            '<img class="gallery-delete-image" style="max-width: 15px" src="assets/images/clear.png" />' +
+            '</button>' +
+            '</div>');
+    }
+
+    $scope.uploadGallery = function (files) {
+        if (files == null || files[0] == null) {
+            return;
+        }
+        Upload.upload({
+            url: 'rest/upload',
+            file: files[0]
+        }).then(function (response) { // success
+            products.addImage($scope.selected.id, $routeParams.id, response.data.url, function (success, data) {
+                if (success) {
+                    var $a = createNewImageItem(data);
+
+                    $('#links').append($a)
+                        .isotope('appended', $a).isotope();
+                    ;
+                } else {
+                    notifier.alert(data);
+                }
+            });
+        }, function (response) { // error
+            response.data.message.forEach(function (msg) {
+                notifier.alert(msg);
+            });
+        }, function (evt) { // progress
+            var progressPercentage = parseInt(100.0 *
+                evt.loaded / evt.total);
+            console.log(progressPercentage);
+        });
     };
 
     $scope.$on('ngRepeatFinished', function () {

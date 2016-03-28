@@ -7,14 +7,15 @@
 </div>
 <div ng-if="state== 'loaded'">
     <div id="container">
-        <div class="type-item" ng-repeat="item in types" on-finish-render>
+        <div class="type-item" ng-repeat="item in types" id="{{item.id}}" on-finish-render>
             <input type="text" id="input{{item.id}}" placeholder="{{item.type}}">
             <button id="btn{{item.id}}" ng-click="onRename(item.id)"><img style="display: none;"
                                                                           class="rename-load input-image"
                                                                           src="assets/images/loading.gif"/>
                 <div class="rename-text">Rename</div>
             </button>
-            <button><img class="input-image" src="assets/images/clear.png" alt="Delete"></button>
+            <button ng-click="delete(item.id)"><img class="input-image delete-img" src="assets/images/clear.png"
+                                                    alt="Delete"></button>
         </div>
     </div>
 </div>

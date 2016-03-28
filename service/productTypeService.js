@@ -72,6 +72,26 @@ app.factory('productTypes', function ($http) {
         );
     };
 
+    productTypes.delete = function (id, onDeleted) {
+        $http.delete('rest/products/type/' + id).then(
+            function (response) {
+                if (response.data.success) {
+                    var index = -1;
+                    for (var i = 0; i < productTypes.list.length; ++i) {
+                        if (productTypes.list[i].id == id) {
+                            index = i;
+                        }
+                    }
+                    productTypes.list.splice(index, 1);
+                }
+                onDeleted(true, id);
+            },
+            function (response) {
+                onDeleted(false, response.data.message);
+            }
+        );
+    };
+
     productTypes.addTypes = function (typeArray) {
         productTypes.list.push.apply(productTypes.list, typeArray);
     };

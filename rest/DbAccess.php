@@ -53,4 +53,12 @@ class DBAccess {
         }
         return $this->conn->error;
     }
+
+    public function delete($SQL)
+    {
+        if ($this->conn->query($SQL) === TRUE) {
+            return TRUE;
+        }
+        return $this->conn->error;
+    }
 }
