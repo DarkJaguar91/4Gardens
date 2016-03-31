@@ -136,3 +136,13 @@ pre, .price {
 .price {
     text-align: center;
 }
+
+.description {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+.home-detail p {
+    font-size: 18px;
+}
