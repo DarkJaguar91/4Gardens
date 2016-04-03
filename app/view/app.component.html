@@ -1,0 +1,22 @@
+<div id="brand">
+    <img src="assets/images/4Gardens Logo_Colour.png">
+</div>
+<nav class="navbar navbar-light bg-faded">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+        &#9776;
+    </button>
+    <div class="container collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+        <a class="navbar-brand" [routerLink]="['Home']">4Gardens</a>
+        <ul class="nav navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" [routerLink]="['Home']">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['Heroes']">Heroes</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>

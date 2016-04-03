@@ -6,10 +6,10 @@
      * Time: 9:15 PM
      */
 
-    use Silex\Application;
-    use Silex\ControllerProviderInterface;
+use Silex\Application;
+use Silex\ControllerProviderInterface;
 
-    require_once 'silex/vendor/autoload.php';
+require_once 'silex/vendor/autoload.php';
     require_once 'ProductDB.php';
 
     class Product implements ControllerProviderInterface
@@ -41,7 +41,11 @@
                 return json_encode($this->productDb->getProducts($productType));
             });
 
-            $products->put('/type/{typeId}', function (\Symfony\Component\HttpFoundation\Request $request, $typeId) {
+            $products->get('/product/{id}', function ($id) {
+                return json_encode($this->productDb->getProduct($id));
+            });
+
+            $products->put('/{typeId}', function (\Symfony\Component\HttpFoundation\Request $request, $typeId) {
                 $output = new stdClass();
                 $output->success = false;
 
@@ -66,7 +70,41 @@
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
             });
 
-            $products->post('/product/new', function (\Symfony\Component\HttpFoundation\Request $request) {
+            $products->put('/product', function (\Symfony\Component\HttpFoundation\Request $request) {
+                $output = new stdClass();
+                $output->success = false;
+                $id = $request->request->get('id');
+                $type = $request->request->get('type');
+                $title = $request->request->get('title');
+                $image = $request->request->get('image');
+                $description = $request->request->get('description');
+                $price = $request->request->get('price');
+
+                if ($id != null) {
+                    $success = $this->productDb->changeProduct((int)$id, $title, $type, $image, $description, $price);
+                    if ($success === TRUE) {
+                        $output->item = new stdClass();
+                        $output->item->id = $id;
+                        $output->item->type = $type;
+                        $output->item->title = $title;
+                        $output->item->description = $description;
+                        $output->item->image = $image;
+                        $output->item->code = $request->request->get('code');;
+                        $output->item->price = $price;
+                        $output->success = TRUE;
+                        $output->message = 'Product changed successfully.';
+
+                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 200);
+                    } else {
+                        $output->message = $success;
+                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 500);
+                    }
+                }
+                $output->message = 'Item not recognized';
+                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
+            });
+
+            $products->post('/product', function (\Symfony\Component\HttpFoundation\Request $request) {
                 $output = new stdClass();
                 $output->success = false;
                 $output->message = [];
@@ -124,7 +162,7 @@
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
             });
 
-            $products->post('/type/new', function (\Symfony\Component\HttpFoundation\Request $request) {
+            $products->post('/', function (\Symfony\Component\HttpFoundation\Request $request) {
                 $type = $request->request->get('type');
                 $output = new stdClass();
                 $output->success = false;
@@ -171,40 +209,6 @@
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
             });
 
-            $products->put('/product/update', function (\Symfony\Component\HttpFoundation\Request $request) {
-                $output = new stdClass();
-                $output->success = false;
-                $id = $request->request->get('id');
-                $type = $request->request->get('type');
-                $title = $request->request->get('title');
-                $image = $request->request->get('image');
-                $description = $request->request->get('description');
-                $price = $request->request->get('price');
-
-                if ($id != null) {
-                    $success = $this->productDb->changeProduct((int)$id, $title, $type, $image, $description, $price);
-                    if ($success === TRUE) {
-                        $output->item = new stdClass();
-                        $output->item->id = $id;
-                        $output->item->type = $type;
-                        $output->item->title = $title;
-                        $output->item->description = $description;
-                        $output->item->image = $image;
-                        $output->item->code = $request->request->get('code');;
-                        $output->item->price = $price;
-                        $output->success = TRUE;
-                        $output->message = 'Product changed successfully.';
-
-                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 200);
-                    } else {
-                        $output->message = $success;
-                        return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 500);
-                    }
-                }
-                $output->message = 'Item not recognized';
-                return new \Symfony\Component\HttpFoundation\Response(json_encode($output), 400);
-            });
-
             $products->delete('/product/{id}', function ($id) {
                 $output = new stdClass();
                 $response = $this->productDb->deleteProduct($id);
@@ -221,7 +225,7 @@
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), $output->success ? 200 : 400);
             });
 
-            $products->delete('/type/{id}', function ($id) {
+            $products->delete('/{id}', function ($id) {
                 $output = new stdClass();
                 $output->success = $this->productDb->deleteType($id);
                 return new \Symfony\Component\HttpFoundation\Response(json_encode($output), $output->success ? 200 : 400);

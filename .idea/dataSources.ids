@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="MySQL - angeli4_4gardens@localhost" uuid="8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf">
+  <data-source name="MySQL - angeli4_4gardens@localhost" uuid="129dff18-35e4-49a4-a7a1-d580f88298b8">
     <database-info product="MySQL" version="5.7.9" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -9,8 +9,8 @@
     <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
       <schema id="1" name="angeli4_4gardens"/>
       <table id="2" parent="1" name="gallery"/>
-      <table id="3" parent="1" name="product_types"/>
-      <table id="4" parent="1" name="products"/>
+      <table id="3" parent="1" name="products"/>
+      <table id="4" parent="1" name="product_types"/>
       <column id="5" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(6) unsigned</data-type>
@@ -38,40 +38,40 @@
       </column>
       <column id="11" parent="3" name="type">
         <mandatory>1</mandatory>
-        <data-type>varchar(50)</data-type>
+        <data-type>int(6) unsigned</data-type>
       </column>
-      <key id="12" parent="3" name="PRIMARY">
+      <column id="12" parent="3" name="title">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="13" parent="3" name="code">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1024)</data-type>
+      </column>
+      <column id="14" parent="3" name="description">
+        <data-type>varchar(20000)</data-type>
+      </column>
+      <column id="15" parent="3" name="image">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="16" parent="3" name="price">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10000)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="17" parent="3" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="13" parent="4" name="id">
+      <column id="18" parent="4" name="id">
         <mandatory>1</mandatory>
         <data-type>int(6) unsigned</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="14" parent="4" name="type">
+      <column id="19" parent="4" name="type">
         <mandatory>1</mandatory>
-        <data-type>int(6) unsigned</data-type>
-      </column>
-      <column id="15" parent="4" name="title">
-        <mandatory>1</mandatory>
-        <data-type>varchar(100)</data-type>
-      </column>
-      <column id="16" parent="4" name="code">
-        <mandatory>1</mandatory>
-        <data-type>varchar(1024)</data-type>
-      </column>
-      <column id="17" parent="4" name="description">
-        <data-type>varchar(20000)</data-type>
-      </column>
-      <column id="18" parent="4" name="image">
-        <mandatory>1</mandatory>
-        <data-type>varchar(100)</data-type>
-      </column>
-      <column id="19" parent="4" name="price">
-        <mandatory>1</mandatory>
-        <data-type>varchar(10000)</data-type>
-        <default-expression>&apos;&apos;</default-expression>
+        <data-type>varchar(50)</data-type>
       </column>
       <key id="20" parent="4" name="PRIMARY">
         <columns>id</columns>

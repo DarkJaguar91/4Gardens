@@ -5,4 +5,7 @@
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^rest/ rest/RestController.php [QSA,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* index.html [QSA,L]
 </IfModule>
