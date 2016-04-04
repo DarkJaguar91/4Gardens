@@ -1,122 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dce77bb-fcf4-4d41-b4ca-c034432a1938" name="Default" comment="Fixed issue with pricing">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/4Gardens_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/app.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/dashboard.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/hero-detail.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/heroes.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/home.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/app.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/dashboard.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/hero-detail.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/heroes.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/home.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mock/mock-heroes.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/obj/hero.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/hero.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/app.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/dashboard.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/hero-detail.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/heroes.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/home.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/app/4Gardens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/app/NavbarController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/app/ProductController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/app/ProductTypesController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/css/admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/views/products.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/views/types.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/4Gardens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/ContactController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/NavbarController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/ProductsController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/4Gardens.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/animations.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-image-gallery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-image-gallery.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-image-gallery.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Whitney-Semibold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Whitney-Semibold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Whitney-Semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Whitney-Semibold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Whitney-Semibold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/master_of_break.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/master_of_break.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/master_of_break.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap-image-gallery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap-image-gallery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap-image-gallery.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/isotope-packery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/isotope.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-2.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ng-file-upload-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ng-file-upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/jquery.noty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/bottom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/bottomCenter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/bottomLeft.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/bottomRight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/centerLeft.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/centerRight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/inline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/topCenter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/topLeft.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/layouts/topRight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/packaged/jquery.noty.packaged.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/packaged/jquery.noty.packaged.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/themes/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/themes/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noty/themes/relax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service/NotifierServer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service/ProductService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service/productTypeService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/products.html" afterPath="" />
+    <list default="true" id="a40c1583-8c76-42eb-b691-400a77176cc8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/foun1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/uploads/foun2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4Gardens.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/products.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/products.component.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/products.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/product.component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/obj/Product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/obj/Product.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/obj/Product.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/obj/type.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/obj/type.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/ProductService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/ProductService.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/ProductService.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/TypeService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/TypeService.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/TypeService.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/products.component.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/4Gaardens.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/dashboard.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/dashboard.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/dashboard.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/hero-detail.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/hero-detail.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/hero-detail.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/heroes.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/heroes.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/component/heroes.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/dashboard.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/hero-detail.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/heroes.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mock/mock-heroes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mock/mock-heroes.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mock/mock-heroes.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/obj/hero.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/obj/hero.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/hero.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/hero.service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/hero.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/dashboard.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/hero-detail.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/heroes.component.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/4Gaardens.iml" afterPath="$PROJECT_DIR$/.idea/4Gaardens.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component/app.component.js" afterPath="$PROJECT_DIR$/app/component/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component/app.component.js.map" afterPath="$PROJECT_DIR$/app/component/app.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component/app.component.ts" afterPath="$PROJECT_DIR$/app/component/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component/home.component.js" afterPath="$PROJECT_DIR$/app/component/home.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.js" afterPath="$PROJECT_DIR$/app/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.js.map" afterPath="$PROJECT_DIR$/app/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.ts" afterPath="$PROJECT_DIR$/app/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/app.component.html" afterPath="$PROJECT_DIR$/app/view/app.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/DbAccess.php" afterPath="$PROJECT_DIR$/rest/DbAccess.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/Product.php" afterPath="$PROJECT_DIR$/rest/Product.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/ProductDB.php" afterPath="$PROJECT_DIR$/rest/ProductDB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/RestController.php" afterPath="$PROJECT_DIR$/rest/RestController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/test.php" afterPath="$PROJECT_DIR$/rest/test.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/obj/hero.js" afterPath="$PROJECT_DIR$/app/obj/type.js" />
     </list>
-    <ignored path="4Gaardens.iws" />
+    <ignored path="4Gardens.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -135,95 +94,107 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - angeli4_4gardens@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="4Gaardens" />
+    <favorites_list name="4Gardens" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/component/home.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/view/home.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.component.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/css/home.component.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/component/app.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/view/app.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="dashboard.component.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/component/dashboard.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#48#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="package_json" />
-        <option value="TypeScript File" />
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DbAccess.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest/DbAccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/products.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/product.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angeli4_4gardens.products" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/ea356526/edf370d8-4a72-4358-85bf-02ffe2121b68/angeli4_4gardens.products">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/component/products.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+                <marker date="1459689346947" expanded="true" signature="204:368" placeholder="{&quot;selector&quot;: 'products'...}" />
+                <marker date="1459689346947" expanded="true" signature="418:763" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductService.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/ProductService.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="50" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeService.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/TypeService.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -236,69 +207,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/Notifier.js" />
-        <option value="$PROJECT_DIR$/service/NotifierServer.js" />
-        <option value="$PROJECT_DIR$/rest/DbAccess.php" />
-        <option value="$PROJECT_DIR$/admin/views/types.html" />
-        <option value="$PROJECT_DIR$/service/ProductTypeService.js" />
-        <option value="$PROJECT_DIR$/imagegal/index.html" />
-        <option value="$PROJECT_DIR$/admin/app/ProductTypesController.js" />
-        <option value="$PROJECT_DIR$/admin/css/admin.css" />
-        <option value="$PROJECT_DIR$/app/4Gardens.js" />
-        <option value="$PROJECT_DIR$/admin.html" />
-        <option value="$PROJECT_DIR$/app/ProductsController.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/console.sql" />
-        <option value="$PROJECT_DIR$/admin/views/products.html" />
-        <option value="$PROJECT_DIR$/views/products.html" />
-        <option value="$PROJECT_DIR$/admin/app/ProductController.js" />
-        <option value="$PROJECT_DIR$/service/ProductService.js" />
-        <option value="$PROJECT_DIR$/css/4Gardens.css" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/app/home.component.ts" />
-        <option value="$PROJECT_DIR$/views/app.component.html" />
-        <option value="$PROJECT_DIR$/app/hero.ts" />
-        <option value="$PROJECT_DIR$/app/hero-detail.component.ts" />
-        <option value="$PROJECT_DIR$/service/mock-heroes.ts" />
-        <option value="$PROJECT_DIR$/service/hero.service.ts" />
-        <option value="$PROJECT_DIR$/app/hero.service.ts" />
-        <option value="$PROJECT_DIR$/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/app/main.ts" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/129dff18-35e4-49a4-a7a1-d580f88298b8/console.sql" />
-        <option value="$PROJECT_DIR$/app/views/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/app/service/hero.service.ts" />
-        <option value="$PROJECT_DIR$/app/view/hero-detail.component.html" />
-        <option value="$PROJECT_DIR$/app/view/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/app/css/hero-detail.component.css" />
-        <option value="$PROJECT_DIR$/app/css/dashboard.component.css" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/app/component/hero-detail.component.ts" />
-        <option value="$PROJECT_DIR$/app/component/heroes.component.ts" />
-        <option value="$PROJECT_DIR$/app/component/dashboard.component.ts" />
-        <option value="$PROJECT_DIR$/app/view/heroes.component.html" />
-        <option value="$PROJECT_DIR$/app/css/heroes.component.css" />
-        <option value="$PROJECT_DIR$/app/css/app.component.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/rest/Product.php" />
-        <option value="$PROJECT_DIR$/rest/ProductDB.php" />
-        <option value="$PROJECT_DIR$/app/component/app.component.ts" />
-        <option value="$PROJECT_DIR$/app/view/app.component.html" />
-        <option value="$PROJECT_DIR$/app/component/home.component.ts" />
-        <option value="$PROJECT_DIR$/app/view/home.component.html" />
-        <option value="$PROJECT_DIR$/app/css/home.component.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/edf370d8-4a72-4358-85bf-02ffe2121b68/console.sql" />
+        <option value="$PROJECT_DIR$/app/service/ProductService.ts" />
+        <option value="$PROJECT_DIR$/app/service/TypeService.ts" />
+        <option value="$PROJECT_DIR$/app/component/products.component.ts" />
+        <option value="$PROJECT_DIR$/app/view/products.component.html" />
+        <option value="$PROJECT_DIR$/app/css/product.component.css" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="PhpServers">
-    <servers>
-      <server host="localhost/4gardens" id="bd840981-b6df-454b-aa6b-d156e451f264" name="4Gardens" />
-    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -307,28 +230,6 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Code StylePHP</id>
-          </State>
-          <State>
-            <id>PHP</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PhpRedundantClosingTagInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -336,7 +237,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -363,10 +264,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="4Gardens" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -403,7 +300,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,47 +314,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Gardens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Gardens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Gardens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4Gardens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,35 +327,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/router.php" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="well&#9;null&#9;null" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\4Gardens\app\obj" />
-      <recent name="D:\Projects\4Gardens\app\mock" />
-      <recent name="D:\Projects\4Gardens\app\component" />
-      <recent name="D:\Projects\4Gardens\app\service" />
-      <recent name="D:\Projects\4Gardens\app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens" />
-      <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\assets\images" />
-      <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\test" />
-      <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\admin\app" />
-      <recent name="C:\Users\bjtal\PhpstormProjects\4Gardens\rest\silex" />
-    </key>
-  </component>
-  <component name="RunManager" selected="PHP Remote Debug.Test">
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -532,12 +379,20 @@
       <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -606,9 +461,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -639,16 +491,13 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -721,7 +570,6 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
-      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -734,9 +582,9 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -800,7 +648,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <envs />
       <method />
     </configuration>
@@ -823,17 +671,7 @@
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" router_script="$PROJECT_DIR$/router.php" use_router_script="true">
-      <CommandLine parameters="-e" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="4Gardens" session_id="1">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -845,7 +683,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -859,7 +697,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -875,11 +713,19 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -899,9 +745,9 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -954,16 +800,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1001,7 +841,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1021,7 +861,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1041,7 +881,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1063,7 +903,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1086,7 +926,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="4Gaardens" />
+      <module name="4Gardens" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1102,110 +942,24 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Test" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="4Gardens" session_id="1">
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHP Remote Debug.Test" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8dce77bb-fcf4-4d41-b4ca-c034432a1938" name="Default" comment="" />
-      <created>1458413213207</created>
+      <changelist id="a40c1583-8c76-42eb-b691-400a77176cc8" name="Default" comment="" />
+      <created>1459706996936</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1458413213207</updated>
-      <workItem from="1458413214319" duration="15135000" />
-      <workItem from="1458492494571" duration="932000" />
-      <workItem from="1458494378107" duration="2044000" />
-      <workItem from="1458497110129" duration="1965000" />
-      <workItem from="1458499636591" duration="175000" />
-      <workItem from="1458500357192" duration="3057000" />
-      <workItem from="1458503741051" duration="5953000" />
-      <workItem from="1458511060826" duration="48582000" />
-      <workItem from="1458711345920" duration="17226000" />
-      <workItem from="1459011914879" duration="43931000" />
-      <workItem from="1459165053506" duration="5911000" />
-      <workItem from="1459184312701" duration="140000" />
-      <workItem from="1459626592122" duration="3219000" />
-      <workItem from="1459630564230" duration="776000" />
-      <workItem from="1459631370695" duration="9958000" />
+      <updated>1459706996936</updated>
+      <workItem from="1459706999400" duration="1123000" />
+      <workItem from="1459709417063" duration="3284000" />
     </task>
-    <task id="LOCAL-00001" summary="So far so good">
-      <created>1458508955328</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1458508955328</updated>
-    </task>
-    <task id="LOCAL-00002" summary="So far so good">
-      <created>1458590476582</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1458590476582</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Started Admin section">
-      <created>1458711797648</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1458711797648</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Product Type renaming complete">
-      <created>1458743112199</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1458743112199</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Product Type renaming complete">
-      <created>1458822375372</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1458822375372</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Admin almost done">
-      <created>1459086363115</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1459086363115</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Admin is done atlast">
-      <created>1459150995229</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1459150995229</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Remove unwated examples&#10;Finish products on standard view&#10;">
-      <created>1459154159406</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1459154159406</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Fixed issue with pricing">
-      <created>1459183025171</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1459183025171</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159004000" />
+    <option name="totallyTimeSpent" value="4407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1215,109 +969,39 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2636656" sideWeight="0.5042644" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27193934" sideWeight="0.48933902" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5112903" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20522387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4887097" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4871795" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="So far so good" />
-    <MESSAGE value="Started Admin section" />
-    <MESSAGE value="Product Type renaming complete" />
-    <MESSAGE value="Admin almost done" />
-    <MESSAGE value="Admin is done atlast" />
-    <MESSAGE value="Remove unwated examples&#10;Finish products on standard view&#10;" />
-    <MESSAGE value="Fixed issue with pricing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue with pricing" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/rest/ProductDB.php</url>
-          <line>34</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="6" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/app/ProductTypesController.js" />
-    <entry file="file://$PROJECT_DIR$/admin/css/admin.css" />
-    <entry file="file://$PROJECT_DIR$/app/4Gardens.js" />
-    <entry file="file://$PROJECT_DIR$/admin.html" />
-    <entry file="dbDummy://dbtable:/9340519d/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/angeli4_4gardens.gallery" />
-    <entry file="file://$PROJECT_DIR$/admin/app/4Gardens.js" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/console.sql" />
-    <entry file="file://$PROJECT_DIR$/app/ProductsController.js" />
-    <entry file="dbDummy://dbtable:/9340519d/8ca87e44-8e18-4bc2-bd0c-e2d186d2bddf/angeli4_4gardens.products" />
-    <entry file="file://$PROJECT_DIR$/service/ProductService.js" />
-    <entry file="file://$PROJECT_DIR$/admin/app/ProductController.js" />
-    <entry file="file://$PROJECT_DIR$/views/products.html" />
-    <entry file="file://$PROJECT_DIR$/admin/views/products.html" />
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home.component.ts" />
-    <entry file="file://$PROJECT_DIR$/css/4Gardens.css" />
-    <entry file="file://$PROJECT_DIR$/app/app.component.css" />
-    <entry file="file://$PROJECT_DIR$/views/app.component.html" />
-    <entry file="file://$PROJECT_DIR$/app/dashboard.component.ts" />
-    <entry file="file://$PROJECT_DIR$/service/mock-heroes.js">
+    <entry file="file://$PROJECT_DIR$/rest/DbAccess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1325,306 +1009,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mock/mock-heroes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/obj/hero.ts">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/edf370d8-4a72-4358-85bf-02ffe2121b68/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-          <folding />
+    <entry file="dbDummy://dbtable:/ea356526/edf370d8-4a72-4358-85bf-02ffe2121b68/angeli4_4gardens.product_types">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/obj/hero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/129dff18-35e4-49a4-a7a1-d580f88298b8/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/hero.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/hero-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/hero-detail.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/dashboard.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/hero-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/heroes.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <marker date="1459665189362" expanded="true" signature="249:418" placeholder="{&quot;selector&quot;: 'my-heroes'...}" />
-            <marker date="1459665189362" expanded="true" signature="467:922" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/heroes.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/heroes.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rest/DbAccess.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="272">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/test.php">
+    <entry file="file://$PROJECT_DIR$/app/service/TypeService.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/RestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+        <state relative-caret-position="408">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
-            <element signature="e#363#420#0#PHP" expanded="false" />
-            <element signature="n#__construct#0;n#Product#0;n#!!top" expanded="false" />
-            <element signature="e#675#768#1#PHP" expanded="false" />
-            <element signature="e#816#917#1#PHP" expanded="false" />
-            <element signature="e#1291#2489#1#PHP" expanded="false" />
-            <element signature="e#1522#2309#0#PHP" expanded="false" />
-            <element signature="e#1665#2291#0#PHP" expanded="false" />
-            <element signature="e#2104#2291#0#PHP" expanded="false" />
-            <element signature="e#1291#2489#1#PHP" expanded="false" />
-            <element signature="e#3049#4160#0#PHP" expanded="false" />
-            <element signature="e#3207#4142#0#PHP" expanded="false" />
-            <element signature="e#3955#4142#0#PHP" expanded="false" />
-            <element signature="e#2532#4330#1#PHP" expanded="false" />
-            <element signature="e#5102#5275#0#PHP" expanded="false" />
-            <element signature="e#5292#5465#0#PHP" expanded="false" />
-            <element signature="e#5482#5673#0#PHP" expanded="false" />
-            <element signature="e#5690#5863#0#PHP" expanded="false" />
-            <element signature="e#5880#6985#0#PHP" expanded="false" />
-            <element signature="e#5957#6124#0#PHP" expanded="false" />
-            <element signature="e#6147#6342#0#PHP" expanded="false" />
-            <element signature="e#4386#7098#1#PHP" expanded="false" />
-            <element signature="e#7355#7987#0#PHP" expanded="false" />
-            <element signature="e#7476#7800#0#PHP" expanded="false" />
-            <element signature="e#7135#8167#1#PHP" expanded="false" />
-            <element signature="e#8551#9419#0#PHP" expanded="false" />
-            <element signature="e#8695#9231#0#PHP" expanded="false" />
-            <element signature="e#9662#10024#1#PHP" expanded="false" />
-            <element signature="e#10075#10441#1#PHP" expanded="false" />
-            <element signature="e#10484#10749#1#PHP" expanded="false" />
-            <marker date="1459670276077" expanded="false" signature="4959:5084" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/ProductDB.php">
+    <entry file="file://$PROJECT_DIR$/app/service/ProductService.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="115" column="39" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+        <state relative-caret-position="340">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="50" />
           <folding>
-            <marker date="1459670319876" expanded="true" signature="448:507" placeholder="SELECT * FRO... product_types" />
-            <marker date="1459670319876" expanded="true" signature="616:675" placeholder="INSERT INTO product_types... " />
-            <marker date="1459670319876" expanded="true" signature="792:835" placeholder="SELECT * FRO... products" />
-            <marker date="1459670319876" expanded="true" signature="980:1041" placeholder="UPDATE produ... " />
-            <marker date="1459670319876" expanded="true" signature="1203:1411" placeholder="INSERT INTO products... " />
-            <marker date="1459670319876" expanded="true" signature="1618:1775" placeholder="UPDATE produ... " />
-            <marker date="1459670319876" expanded="true" signature="1911:1950" placeholder="SELECT * FRO... gallery" />
-            <marker date="1459670319876" expanded="true" signature="2111:2148" placeholder="DELETE FROM " />
-            <marker date="1459670319876" expanded="true" signature="2343:2375" placeholder="SELECT * FRO... products" />
-            <marker date="1459670319876" expanded="true" signature="2554:2584" placeholder="DELETE FROM " />
-            <marker date="1459670319876" expanded="true" signature="2757:2790" placeholder="SELECT * FRO... gallery" />
-            <marker date="1459670319876" expanded="true" signature="2951:2982" placeholder="DELETE FROM " />
-            <marker date="1459670319876" expanded="true" signature="3112:3146" placeholder="SELECT * FRO... products" />
-            <marker date="1459670319876" expanded="true" signature="3309:3341" placeholder="DELETE FROM " />
-            <marker date="1459670319876" expanded="true" signature="3600:3635" placeholder="DELETE FROM " />
-            <marker date="1459670319876" expanded="true" signature="3811:3850" placeholder="SELECT * FRO... gallery" />
-            <marker date="1459670319876" expanded="true" signature="3968:3981" placeholder="SELECT * FRO... " />
-            <marker date="1459670319876" expanded="true" signature="3968:4000" placeholder="SELECT * FRO... products" />
-            <marker date="1459670319876" expanded="true" signature="3968:4013" placeholder="SELECT * FRO... products" />
-            <marker date="1459670319876" expanded="true" signature="4119:4230" placeholder="INSERT INTO gallery... " />
-            <marker date="1459670319876" expanded="true" signature="4394:4425" placeholder="SELECT * FRO... gallery" />
-            <marker date="1459670319876" expanded="true" signature="4586:4615" placeholder="DELETE FROM " />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/dashboard.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/component/products.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+            <marker date="1459689346947" expanded="true" signature="204:368" placeholder="{&quot;selector&quot;: 'products'...}" />
+            <marker date="1459689346947" expanded="true" signature="418:763" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/app.component.html">
+    <entry file="file://$PROJECT_DIR$/app/view/products.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/home.component.css">
+    <entry file="file://$PROJECT_DIR$/app/css/product.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/ea356526/edf370d8-4a72-4358-85bf-02ffe2121b68/angeli4_4gardens.products">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,21 @@
+<br />
+<div class="card">
+    <h1>My Heading</h1>
+</div>
+<div class="container-fluid">
+    <div *ngFor="#item of products" class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="card">
+            <div class="card-block">
+                <h4 class="card-title">
+                    {{item.title}}
+                </h4>
+            </div>
+            <img class="card-img" [src]="item.image"/>
+            <div class="card-block">
+                <h4 class="card-text">
+                    {{item.price}}
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>

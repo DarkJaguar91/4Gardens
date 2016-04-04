@@ -1,9 +1,10 @@
-import {Component} from "angular2/core";
-import {HeroService} from "../service/hero.service";
-import {ROUTER_DIRECTIVES, ROUTER_PROVIDERS, RouteConfig} from "angular2/router";
-import {HeroesComponent} from "./heroes.component";
-import {HeroDetailComponent} from "./hero-detail.component";
+import {Component, OnInit} from "angular2/core";
+import {HTTP_PROVIDERS}    from 'angular2/http';
+import {ROUTER_DIRECTIVES, ROUTER_PROVIDERS, RouteConfig, Router} from "angular2/router";
 import {HomeComponent} from "./home.component";
+import {TypeService} from "../service/TypeService";
+import {Type} from "../obj/type";
+import {ProductsComponent} from "./products.component";
 
 @Component({
     selector: 'my-app',
@@ -12,7 +13,8 @@ import {HomeComponent} from "./home.component";
     directives: [ROUTER_DIRECTIVES],
     providers: [
         ROUTER_PROVIDERS,
-        HeroService
+        HTTP_PROVIDERS,
+        TypeService
     ]
 })
 @RouteConfig([
@@ -23,18 +25,25 @@ import {HomeComponent} from "./home.component";
         useAsDefault: true
     },
     {
-        path: '/heroes',
-        name: 'Heroes',
-        component: HeroesComponent
+        path: '/product/:id',
+        name: 'Products',
+        component: ProductsComponent
     },
-    {
-        path: '/detail/:id',
-        name: 'HeroDetail',
-        component: HeroDetailComponent
-    },
-
 ])
+export class AppComponent implements OnInit {
+    types:Type[];
 
-export class AppComponent {
-    title = 'Tour of Heroes';
+    constructor(private _router:Router, private _typeService: TypeService) {}
+
+    ngOnInit():any {
+        this._typeService.getTypes().subscribe(
+            types => this.types = types,
+            error => console.log(error)
+        )
+    }
+
+    gotoProduct(type: Type) {
+        let link = ['Products', { id: type.id }];
+        this._router.navigate(link);
+    }
 }

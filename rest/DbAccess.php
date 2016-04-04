@@ -1,12 +1,13 @@
 <?php
-    /**
-     * Created by PhpStorm.
-     * User: bjtal
-     * Date: 2016/03/20
-     * Time: 9:18 PM
-     */
 
-class DBAccess {
+/**
+ * Created by PhpStorm.
+ * User: bjtal
+ * Date: 2016/03/20
+ * Time: 9:18 PM
+ */
+class DBAccess
+{
     var $serverName = "localhost";
     var $username = "angeli4_4gardens";
     var $password = "4G4Rd3Ns";
@@ -21,7 +22,8 @@ class DBAccess {
             die('Connection failed: ' . mysqli_connect_error());
     }
 
-    function get($SQL) {
+    function get($SQL)
+    {
         $result = $this->conn->query($SQL);
 
         $output = array();

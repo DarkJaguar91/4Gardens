@@ -1,17 +1,20 @@
+/**
+ * Created by bjtal on 2016/04/03.
+ */
 System.register([], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var Hero;
+    var Type;
     return {
         setters:[],
         execute: function() {
-            Hero = (function () {
-                function Hero() {
+            Type = (function () {
+                function Type() {
                 }
-                return Hero;
+                return Type;
             }());
-            exports_1("Hero", Hero);
+            exports_1("Type", Type);
         }
     }
 });
-//# sourceMappingURL=hero.js.map
+//# sourceMappingURL=type.js.map

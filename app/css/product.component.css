@@ -1,0 +1,15 @@
+.card {
+    cursor: pointer;
+}
+
+.card div {
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h4 {
+    text-align: center;
+}

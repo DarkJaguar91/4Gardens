@@ -1,4 +1,4 @@
-System.register(["angular2/core", "../service/hero.service", "angular2/router", "./heroes.component", "./hero-detail.component", "./home.component"], function(exports_1, context_1) {
+System.register(["angular2/core", 'angular2/http', "angular2/router", "./home.component", "../service/TypeService", "./products.component"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,33 +10,42 @@ System.register(["angular2/core", "../service/hero.service", "angular2/router", 
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, hero_service_1, router_1, heroes_component_1, hero_detail_component_1, home_component_1;
+    var core_1, http_1, router_1, home_component_1, TypeService_1, products_component_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (hero_service_1_1) {
-                hero_service_1 = hero_service_1_1;
+            function (http_1_1) {
+                http_1 = http_1_1;
             },
             function (router_1_1) {
                 router_1 = router_1_1;
             },
-            function (heroes_component_1_1) {
-                heroes_component_1 = heroes_component_1_1;
-            },
-            function (hero_detail_component_1_1) {
-                hero_detail_component_1 = hero_detail_component_1_1;
-            },
             function (home_component_1_1) {
                 home_component_1 = home_component_1_1;
+            },
+            function (TypeService_1_1) {
+                TypeService_1 = TypeService_1_1;
+            },
+            function (products_component_1_1) {
+                products_component_1 = products_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
-                function AppComponent() {
-                    this.title = 'Tour of Heroes';
+                function AppComponent(_router, _typeService) {
+                    this._router = _router;
+                    this._typeService = _typeService;
                 }
+                AppComponent.prototype.ngOnInit = function () {
+                    var _this = this;
+                    this._typeService.getTypes().subscribe(function (types) { return _this.types = types; }, function (error) { return console.log(error); });
+                };
+                AppComponent.prototype.gotoProduct = function (type) {
+                    var link = ['Products', { id: type.id }];
+                    this._router.navigate(link);
+                };
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
@@ -45,7 +54,8 @@ System.register(["angular2/core", "../service/hero.service", "angular2/router", 
                         directives: [router_1.ROUTER_DIRECTIVES],
                         providers: [
                             router_1.ROUTER_PROVIDERS,
-                            hero_service_1.HeroService
+                            http_1.HTTP_PROVIDERS,
+                            TypeService_1.TypeService
                         ]
                     }),
                     router_1.RouteConfig([
@@ -56,17 +66,12 @@ System.register(["angular2/core", "../service/hero.service", "angular2/router", 
                             useAsDefault: true
                         },
                         {
-                            path: '/heroes',
-                            name: 'Heroes',
-                            component: heroes_component_1.HeroesComponent
-                        },
-                        {
-                            path: '/detail/:id',
-                            name: 'HeroDetail',
-                            component: hero_detail_component_1.HeroDetailComponent
+                            path: '/product/:id',
+                            name: 'Products',
+                            component: products_component_1.ProductsComponent
                         },
                     ]), 
-                    __metadata('design:paramtypes', [])
+                    __metadata('design:paramtypes', [router_1.Router, TypeService_1.TypeService])
                 ], AppComponent);
                 return AppComponent;
             }());
