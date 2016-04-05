@@ -25,7 +25,6 @@ export class ProductService {
             return this.http.get('http://4gardens/rest/products/product')
                 .map(res => <Type[]> res.json())
                 .do(data => {
-                    console.log(data);
                     this.products = data;
                 })
                 .catch(this.handleError);

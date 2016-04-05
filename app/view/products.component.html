@@ -1,9 +1,9 @@
 <br />
 <div class="card">
-    <h1>My Heading</h1>
+    <input type="text" [(ngModel)]="searchText"/>
 </div>
-<div class="container-fluid">
-    <div *ngFor="#item of products" class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="card-columns" data-masonry='{}'>
+    <div class="prod ng-animate" *ngFor="#item of products | search : searchText">
         <div class="card">
             <div class="card-block">
                 <h4 class="card-title">

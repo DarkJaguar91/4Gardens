@@ -13,3 +13,32 @@
 .card h4 {
     text-align: center;
 }
+
+.prod.ng-enter {
+    -webkit-transition:all linear 0.3s;
+    -moz-transition:all linear 0.3s;
+    -ms-transition:all linear 0.3s;
+    -o-transition:all linear 0.3s;
+    transition:all linear 0.3s;
+    opacity:0;
+    transform: scale(0);
+}
+
+.prod.ng-enter.ng-enter-active {
+    opacity:1;
+    transform: scale(1);
+}
+.prod.ng-leave {
+    -webkit-transition:all linear 0.3s;
+    -moz-transition:all linear 0.3s;
+    -ms-transition:all linear 0.3s;
+    -o-transition:all linear 0.3s;
+    transition:all linear 0.3s;
+    opacity:1;
+    transform: scale(1);
+}
+
+.prod.ng-leave.ng-leave-active {
+    opacity:0;
+    transform: scale(0);
+}

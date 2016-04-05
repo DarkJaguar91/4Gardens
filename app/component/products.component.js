@@ -1,4 +1,4 @@
-System.register(["angular2/core", "angular2/router", "../service/ProductService"], function(exports_1, context_1) {
+System.register(["angular2/core", "angular2/router", "../service/ProductService", "../pipes/productSearchPipe"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(["angular2/core", "angular2/router", "../service/ProductService"
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, router_1, ProductService_1;
+    var core_1, router_1, ProductService_1, productSearchPipe_1;
     var ProductsComponent;
     return {
         setters:[
@@ -22,12 +22,16 @@ System.register(["angular2/core", "angular2/router", "../service/ProductService"
             },
             function (ProductService_1_1) {
                 ProductService_1 = ProductService_1_1;
+            },
+            function (productSearchPipe_1_1) {
+                productSearchPipe_1 = productSearchPipe_1_1;
             }],
         execute: function() {
             ProductsComponent = (function () {
                 function ProductsComponent(_routeParams, _productService) {
                     this._routeParams = _routeParams;
                     this._productService = _productService;
+                    this.searchText = '';
                 }
                 ProductsComponent.prototype.ngOnInit = function () {
                     var _this = this;
@@ -38,6 +42,7 @@ System.register(["angular2/core", "angular2/router", "../service/ProductService"
                         selector: 'products',
                         templateUrl: 'app/view/products.component.html',
                         providers: [ProductService_1.ProductService],
+                        pipes: [productSearchPipe_1.ProductSearchPipe],
                         styleUrls: ['app/css/product.component.css']
                     }), 
                     __metadata('design:paramtypes', [router_1.RouteParams, ProductService_1.ProductService])

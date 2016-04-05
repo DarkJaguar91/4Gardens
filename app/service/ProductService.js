@@ -43,7 +43,6 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Observable'], function(
                         return this.http.get('http://4gardens/rest/products/product')
                             .map(function (res) { return res.json(); })
                             .do(function (data) {
-                            console.log(data);
                             _this.products = data;
                         })
                             .catch(this.handleError);
