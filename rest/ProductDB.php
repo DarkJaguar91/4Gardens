@@ -113,6 +113,11 @@
             return $this->DbAccess->get('SELECT * FROM gallery WHERE product_id=' . $id . ';');
         }
 
+        public function getRandomGallery()
+        {
+            return $this->DbAccess->get('SELECT * FROM gallery;');
+        }
+
         public function addGalleryItem($type, $prodID, $path)
         {
             $sql = "INSERT INTO gallery (product_id, path, type) VALUES (" . (int)$prodID . ", '" . $path . "', " . (int)$type . ");";

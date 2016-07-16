@@ -6,7 +6,8 @@ var app = angular.module("4Gardens", ['ngRoute', 'ngAnimate'])
     .config(['$routeProvider',
         function ($routeProvider) {
             $routeProvider.when('/home', {
-                templateUrl: 'views/home.html'
+                templateUrl: 'views/home.html',
+                controller: 'HomeController'
             }).when('/contact', {
                 templateUrl: 'views/contact.html',
                 controller: 'ContactController'

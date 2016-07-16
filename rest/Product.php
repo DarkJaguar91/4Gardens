@@ -6,10 +6,10 @@
      * Time: 9:15 PM
      */
 
-    use Silex\Application;
-    use Silex\ControllerProviderInterface;
+use Silex\Application;
+use Silex\ControllerProviderInterface;
 
-    require_once 'silex/vendor/autoload.php';
+require_once 'silex/vendor/autoload.php';
     require_once 'ProductDB.php';
 
     class Product implements ControllerProviderInterface
@@ -31,6 +31,10 @@
 
             $products->get('/', function () {
                 return json_encode($this->productDb->getTypes());
+            });
+
+            $products->get('/gallery/random', function () {
+                return json_encode($this->productDb->getRandomGallery());
             });
 
             $products->get('/gallery/{id}', function ($id) {

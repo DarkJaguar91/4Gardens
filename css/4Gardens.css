@@ -140,9 +140,28 @@ pre, .price {
 .description {
     width: 250px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .home-detail p {
     font-size: 18px;
+}
+
+.flipster_section {
+    min-height: 250px;
+}
+
+.flipster_item {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.loading_flipster {
+    display: block;
+    margin: auto;
+    height: 250px;
+    max-height: 250px;
+    max-width: 250px;
 }

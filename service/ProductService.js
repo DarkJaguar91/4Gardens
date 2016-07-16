@@ -118,6 +118,28 @@ app.factory('products', function ($http) {
         }
     };
 
+    products.random = null;
+    products.getRandomGallery = function (onComplete) {
+        if (products.random == null) {
+            products.random = [];
+            $http.get('rest/products/gallery/random').then(
+                function (response) {
+                    console.log(response.data);
+                    if (response.data) {
+                        products.random.push.apply(products.random, response.data)
+                    }
+
+                    onComplete(true, products.random)
+                },
+                function (response) {
+                    onComplete(false, products.random)
+                }
+            )
+        } else {
+            onComplete(true, products.random)
+        }
+    };
+
     products.addImage = function (productId, type, image, complete) {
         var data = {};
         data.productID = productId;
